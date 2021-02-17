@@ -1,37 +1,91 @@
-# Materiały {#materialy}
+# Metody {#metody}
 
-Celem tego rozdziału jest przedstawienie użytych w pracy danych.
-Należy wyjaśnić jakie dane zostały użyte, jakiego są one rodziaju, dla jakiego okresu zostały pobrane/stworzone, co one zawierają, etc.
+## Dane {#dane}
 
-W tym rozdziale warto dodać ryciny i tabele przedstawiające użyte dane.
+Praca została oparta o dane ze strony internetowej Państwowej Komisji Wyborczej, z zakładki dotyczącej wyborów prezydenckich RP w czerwcu 2020 roku [@pkw_2020].
+Na stronie dostępne są dane w rozszerzeniach .csv oraz .xlsx – w pracy skorzystano z plików z rozszerzeniem .csv ze względu na łatwość ich obsługi w środowisku R. 
+Wyniki głosowania są dostępne w formie wartości bezwzględnych oraz procentowej, z podziałem na obwody, gminy, powiaty oraz województwa. 
+Każda z tabel zawiera m.in. kod TERYT, nazwę jednostki, frekwencję, liczbę głosów nieważnych wraz z ich powodami, liczbę lub procent głosów ważnych oraz liczbę lub procent głosów oddanych na danego kandydata. Tabela\@ref(tab:tabela31) przedstawia wybrane kolumny z danych pobranych od Państwowej Komisji Wyborczej.
 
-Zwróć uwagę, że poniższe bloki kodu mają parametr `echo=FALSE`; oznacza to, że będą one niewidoczne w wynikowym pliku PDF.
-Każdy z bloków kodu musi mieć unikalną nazwę.
-Dodanie podpisu pod rycinę odbywa się używając parametru `fig.cap`.
-Następnie do tej ryciny można się odnieść używając operatora `\@ref()` wraz z prefiksem `fig:`.
-Przykładowo, odniesienie się do pierwszej ryciny wymaga wpisania `\@ref(fig:rycina1)` (Rycina \@ref(fig:rycina1)).
-
-```{r rycina1, echo=FALSE, fig.cap="Moja pierwsza rycina"}
-plot(1, 4)
-```
-
-Podobnie wygląda odnoszenie się do plików graficznych. 
-Tutaj wewnątrz bloku kodu należy użyć funkcji `knitr::include_graphics()` (Rycina \@ref(fig:rycina2)).
-
-```{r rycina2, echo=FALSE, fig.cap="Moja druga rycina", out.width=400}
-knitr::include_graphics("figures/rcookies.png")
-```
-
-Odnoszenie się do tabel odbywa się poprzez operator `\@ref()` wraz z prefiksem `tab:`.
-Natomiast tworzenie podpisu nad tabelą ma miejsce wewnątrz funkcji `knitr::kable()`. 
-Dodatkowo możliwe jest użycie pakietu **kableExtra** [@R-kableExtra] do określenia szerokości kolumn (Tabela \@ref(tab:tabela1)).
-
-```{r tabela1, echo=FALSE}
+```{r tabela31, echo=FALSE, fig.cap="Fragment danych z II tury pobranych z wybory.gov.pl"}
+library(knitr)
+library(kableExtra)
 library(magrittr)
-df = data.frame(a = 1:5, b = letters[1:5])
-knitr::kable(df, 
-             caption = "Moja pierwsza tabela",
-             booktabs = TRUE) %>% 
-  kableExtra::column_spec(1, width = "2cm") %>% 
-  kableExtra::column_spec(2, width = "4cm")
+dane_woj = read.csv2("data/tabela31.csv", encoding = "UTF-8")
+
+kable(head(dane_woj[c(1:5)], 5), booktabs = TRUE, col.names = c('TERYT', 'Województwo', 'Wyborcy uprawnieni', 'Andrzej Duda', 'Rafał Trzaskowski')) %>%
+kableExtra::column_spec(1, width = "3cm") %>%
+kableExtra::column_spec(2, width = "4cm")
 ```
+
+Do wizualizacji wykorzystano wyniki z pierwszej i drugiej tury wyborów z podziałem dla województw, powiatów oraz gmin w województwie wielkopolskim. 
+Na podstawie danych obliczono m.in. frekwencję, odsetek głosów dla dwóch najpopularniejszych kandydatów oraz różnicę w liczbie i odsetku głosów między nimi (Tab.\@ref(tab:tabela32)).
+
+```{r tabela32, echo=FALSE, fig.cap="Fragment danych po etapie czyszczenia oraz łączenia"}
+library(knitr)
+library(kableExtra)
+dane_woj = read.csv2("data/tabela_2.csv", encoding = "UTF-8")
+kable(head(dane_woj[c(1,6,8, 9)], 5), booktabs = TRUE)
+```
+
+Dane z granicami administracyjnymi uzyskano ze strony GIS Support [@gissupport]. 
+Oryginalne dane pochodzą z Głównego Urzędu Geodezji i Kartografii, jednak nie jest stamtąd możliwe pobranie danych z podziałem na wybrane jednostki administracyjne (tj. powiatów, województw). 
+Wynikiem pobierania są skompresowane foldery z plikami w formacie ESRI Shapefile. 
+Każdy plik .shp posiada kolumny 'JPT_SJR_KO', 'JPT_KOD_JE' oraz 'JPT_NAZWA_'. Kolumna 'JPT_KOD_JE' jest niezbędna do przeprowadzenia pomyślnego łączenia danych geograficznych z danymi wyborczymi.
+
+```{r tabela33, echo=FALSE, fig.cap="TABLEAAAA????"}
+library(knitr)
+library(kableExtra)
+dane_woj = read.csv2("data/tabela_2.csv", encoding = "UTF-8")
+kable(head(dane_woj[c(1,6,8, 9)], 5), booktabs = TRUE)
+```
+
+Czyszczenie danych zostały przeprowadzone w języku R[@r-base], konieczne jednak były poprawki geometrii na poziomie powiatowym – naprawiono je w programie QGIS. 
+Poniższy proces przebiegał praktycznie tak samo w każdym z arkuszy, pojedyncze dodatkowe kroki zostały przeprowadzone przy danych na poziomie gmin, gdzie niezbędne było wyszczególnienie jednostek wyłącznie z województwa wielkopolskiego. 
+Pierwszym etapem czyszczenia było usunięcie zbędnych informacji w obu turach, m.in. typ jednostki, % głosów nieważnych oraz powody, przez które stały się nieważne. 
+Poprawiono również kody TERYT tak, aby była odpowiedniej długości dla każdej jednostki. 
+Za pomocą wspólnej kolumny TERYT złączono obie tury.
+
+Dane geograficzne po załadowaniu zostały przekonwertowane do układu współrzędnych 1992, a zbędne kolumny wykluczono. 
+Uproszczono geometrię tak, aby zmniejszyć rozmiar pliku i ułatwić  jego późniejszą obsługę, ale jednocześnie zmiany nie były widoczne dla odbiorcy. 
+Dane dla gmin zostały ograniczone do województwa wielkopolskiego.
+
+Poprzez kolumny TERYT złączono dane tekstowe z danymi geograficznymi do jednego pliku. 
+Dodatkowo obliczono m.in. wyniki procentowe obu kandydatów oraz frekwencji, liczbową różnicę między kandydatami w II turze oraz różnicę frekwencji. 
+Złączony plik zapisano w formacie GeoPackage (rozszerzenie .gpkg).
+
+Przedziały klas w mapach zostały ustawione ręcznie. 
+Kierowano się tym, aby każdy z przedziałów miał podobną liczbę obiektów, środkowa klasa mieściła w sobie wartość średnią, a skrajne przedziały zawierające wartości wychodzące poza jedno odchylenie standardowe. 
+
+## Biblioteki języka R {#biblioteki}
+
+Głównym narzędziem stosowanym w pracy inżynierskiej był język R. 
+Łącznie użytych zostało XYZ pakietów, z czego najważniejszymi pakietami wykorzystanymi w pracy były pakiety cartogram oraz geogrid, które umożliwiały transformacje danych przestrzennych. 
+Innymi pakietami użytymi były m.in.: dplyr, sf, tmap oraz tmaptools.
+
+TAAAAAABEEEEEEEEEEELEEEEEEEEEEEECZKA
+.
+
+.
+
+.
+
+.
+
+..
+
+.
+
+.
+
+Pakiet *cartogram* składa się z trzech funkcji: *cartogram_cont(), cartogram_ncont(), oraz cartogram_dorling()*.
+*Cartogram_cont()* służy do tworzenia kartogramu anamorficznego ciągłego za pomocą algorytmu zniekształcenia arkusza gumy - gubbersheetingu [@dougenik1985].
+*Cartogram_ncont()* tworzy kartogram anamorficzny nieciągły, którego algorytm jest oparty o pracę J. Olson [@olson1976]. 
+Przy pomocy argumentu *k* możliwe jest określenie współczynnika ekspansji dla jednostki o większej wartości, a więc także ogólnego rozmiaru jednostek. 
+*Cartogram_dorling()* tworzy kartodiagram anamorficzny, opracowany pierwotnie przez D. Dorlinga [@dorling1996]. 
+Wizualizacje z tego pakietu tworzone były w połączeniu z pakietem tmap. 
+Manipulując argumentem *k* mamy wpływ na udział obwiedni x wypełnionej większym okręgiem, a argumentem - *m_weight*, czyli wagi ruchomości okręgów. 
+Wartość 0 uniemożliwia ruch jednostki z przypisanego miejsca, a 1 domyślną odległość ruchu obliczoną przez algorytm.
+
+W pakiecie geogrid przy pomocy funkcji *calculate_grid()* nadawany jest kształt pola odniesienia (tj. heksagon, kwadrat). Następnie generowane są siatki pól (gridy), które oparte są o analizy granic oryginalnych jednostek odniesienia. Kolejnym etapem jest przypisanie gridu do oryginalnych granic za pomocą funkcji *Assign_polygons()*. Ostatnim krokiem jest zwizualizowanie danych przy pomocy pakietu tmap.
+

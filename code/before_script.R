@@ -3,7 +3,7 @@ knitr::opts_chunk$set(
   comment = "#>",
   collapse = TRUE,
   # cache = TRUE,
-  fig.pos = "t",
+  fig.pos = "h",
   fig.path = "figures/",
   fig.align = "center",
   fig.width = 6,
@@ -11,3 +11,5 @@ knitr::opts_chunk$set(
   fig.show = "hold",
   out.width = "100%"
 )
+
+#Ht
