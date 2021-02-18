@@ -44,7 +44,7 @@ knitr::include_graphics("figures/ryc45.png")
 
 ## Anamorfoza ciągła {#anamorfozaciagla}
 
-Poniższa technika wizualizacji jest przedmiotem badań kartografów w Polsce, jednak nie zyskała popularności poza tym kręgiem [@krzywickablum3009] [@markowska2018] [@markowska2019] [@lamparski2018]. 
+Poniższa technika wizualizacji jest przedmiotem badań kartografów w Polsce, jednak nie zyskała popularności poza tym kręgiem [@krzywickablum2009] [@markowska2018] [@markowska2019] [@lamparski2018]. 
 Zaletą tej techniki jest wykorzystanie jednostek administracyjnych, co ułatwia odbiorcy lokalizację oraz rozpoznanie ich. 
 Przykład województw jest przystępny do odbioru dla użytkownika nawet, kiedy różnice między jednostkami są duże (Ryc. \@ref(fig:ryc46)). 
 Sprawy inaczej się mają w przypadku zastosowania powiatów lub gmin - duża liczba jednostek oraz skrajne wartości powodują znaczną deformację mapy, co zostało zaprezentowane na Ryc. \@ref(fig:ryc47). 

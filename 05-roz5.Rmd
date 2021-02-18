@@ -24,7 +24,7 @@ knitr::include_graphics("figures/ryc51.png")
 W pierwszym pytaniu osoby miały za zadanie odpowiedzieć na pytanie dot. odsetka powiatów z frekwencją powyżej 60% (Ryc. \@ref(fig:ryc51)).
 W grupie pierwszej w celu wizualizacji została używa anamorfoza ciągła, a w drugiej kartogram ciągły. 
 Wyniki w grupach były podobne - w każdej z grup dwie osoby uważały, że *mniej niż 20%* powiatów miało wysoką frekwencję. 
-Niewiele więcej osób wybrało odpowiedź, iż wynik oscyluje *między 20 a 40%* - były to cztery osoby w pierwszej grupie, w drugiej sześć osób. 
+Niewiele więcej osób wybrało odpowiedź, iż wynik oscyluje *między 20 a 40%* - były to cztery osoby w pierwszej grupie, w drugiej sześć osób (Ryc. \@ref(fig:ryc52)). 
 W pierwszej grupie najwięcej osób (14 os.) wybrało wariant *40-60%*, w drugiej grupie było to 11 osób. 
 Poprawną odpowiedź, czyli *60-80%* wybrało po 12 osób w każdej z grup. 
 Tylko dwie osoby z grupy pierwszej, a trzy z drugiej uważały, że odsetek jest *wyższy niż 80%*. 
@@ -44,7 +44,7 @@ knitr::include_graphics("figures/ryc53.png")
 Kartodiagram Dorlinga oraz kartogram geometryczny (heksagonalny) wykorzystano w pytaniu drugim (Ryc. \@ref(fig:ryc53)). 
 Mapy różnią się od siebie wartościami przedziałów, mimo tego w pytaniu drugim osiem osób w obu grupach wybrało prawidłową odpowiedź. 
 W grupie pierwszej tylko cztery osoby wybrało pierwszą odpowiedź - dwa razy więcej osób wybrało tą opcję w grupie drugiej. 
-Na podstawie rycin w grupie drugiej dziewięć osób uważało, że kandydat B zdobył *pomiędzy 20 a 30%* głosów, w pierwszej grupie było to 11 osób. 
+Na podstawie rycin w grupie drugiej dziewięć osób uważało, że kandydat B zdobył *pomiędzy 20 a 30%* głosów, w pierwszej grupie było to 11 osób (Ryc. \@ref(fig:ryc54)). 
 Czwarty wariant, czyli *40-50%*, wybrało pięć osób w pierwszej i osiem osób w drugiej grupie. 
 Sześć osób z pierwszej oraz jedna osoba z drugiej grupy wywnioskowała, że kandydat B wygrał *ponad 50%* gmin w II turze wyborów.
 
@@ -61,7 +61,7 @@ knitr::include_graphics("figures/ryc55.png")
 
 Trzecie pytanie dotyczyło wzrostu frekwencji II turze (Ryc. \@ref(fig:ryc55)).
 W grupie pierwszej ankietowani najczęściej uważali, że wzrost frekwencji dotyczył więcej niż 20% powiatów w Polsce (15 os.). 
-Niewiele mniej, czyli 14 osób wybrało odpowiedź *15-20%*. Wariant trzeci, czyli *10-15%* wybrało osiem osób, a *5-10%* - 11 osób ankietowanych.
+Niewiele mniej, czyli 14 osób wybrało odpowiedź *15-20%*. Wariant trzeci, czyli *10-15%* wybrało osiem osób, a *5-10%* - 11 osób ankietowanych (Ryc. \@ref(fig:ryc56)).
 Nikt w grupie pierwszej nie sądził, że wzrost frekwencji zaobserwowano w *mniej niż 5%* gmin.
 
 W grupie drugiej tą samą opcję wybrała tylko jedna osoba, a sześć osób wybrało przedział *5-10%*. 
@@ -85,7 +85,7 @@ W pytaniu 4 ankietowani mieli za zadanie wymienić trzy województwa z najwyższ
 W pierwszej grupie do wizualizacji został użyty kartogram geometryczny (heksagonalny), a w drugiej - anamorfoza nieciągła. 
 Było to jedno z najtrudniejszych pytań dla ankietowanych, bowiem tylko 20,6% (siedem osób) w pierwszej grupie udało się na nie odpowiedzieć prawidłowo.
 Najwięcej osób wybierało województwo mazowieckie oraz wielkopolskie jako te, które mają najwyższą frekwencję. 
-W grupie drugiej nikomu nie udało się poprawnie odpowiedzieć na to pytanie - tylko siedem osób wybrało województwo małopolskie, a dziesięć osób województwo pomorskie. 
+W grupie drugiej nikomu nie udało się poprawnie odpowiedzieć na to pytanie - tylko siedem osób wybrało województwo małopolskie, a dziesięć osób województwo pomorskie (Ryc. \@ref(fig:ryc58)). 
 Najczęstszą odpowiedzią drugiej grupy było “woj. mazowieckie, woj. pomorskie, woj. wielkopolskie”. 
 W pierwszej grupie poza prawidłową odpowiedzią, popularna była również odpowiedź *woj. mazowieckie, woj. pomorskie, woj. śląskie* (sześć osób) oraz *woj. małopolskie, woj. mazowieckie, woj. zachodniopomorskie* (pięć osób).
 
@@ -103,7 +103,7 @@ knitr::include_graphics("figures/ryc59.png")
 
 W pytaniu 5 ankietowani mieli za zadanie oszacować odsetek głosów, które kandydat A uzyskał w województwie wielkopolskim (Ryc. \@ref(fig:ryc59)). 
 W grupie pierwszej zastosowano anamorfozę ciągłą, a w grupie drugiej kartogram właściwy. 
-Żadna z grup nie uważała, że poparcie było *mniejsze niż 35%*. Osiem osób uważało, że wynik wynosił *między 35 a 42%* - były to dwie osoby w grupie pierwszej oraz sześć w grupie drugiej. 
+Żadna z grup nie uważała, że poparcie było *mniejsze niż 35%*. Osiem osób uważało, że wynik wynosił *między 35 a 42%* - były to dwie osoby w grupie pierwszej oraz sześć w grupie drugiej (Ryc. \@ref(fig:ryc510)). 
 Poprawną odpowiedź, czyli 37,8%, znajdowała się w zakresie, który wybrała połowa pierwszej grupy (17 osób) oraz dziewięć osób w grupie drugiej. 
 W przedziale *40-50%* było za to odwrotnie - połowa grupy drugiej wybrała ten przedział, a z grupy pierwszej - 13 osób. 
 Dwie osoby z każdej z grup uważało, że kandydat B uzyskał *ponad 50% głosów* w województwie wielkopolskim.
@@ -121,7 +121,7 @@ knitr::include_graphics("figures/ryc511.png")
 **Poprawna odpowiedź: 17,6%**
 
 Na pytanie piąte udało się odpowiedzieć poprawnie obu grupom (Ryc. \@ref(fig:ryc511)). 
-Ponad 50% grupy pierwszej (18 osób) oraz 12 osób z grupy drugiej poprawnie wywnioskowało, że poparcie kandydata B w II turze wzrosło o *mniej niż 20%*. 
+Ponad 50% grupy pierwszej (18 osób) oraz 12 osób z grupy drugiej poprawnie wywnioskowało, że poparcie kandydata B w II turze wzrosło o *mniej niż 20%* (Ryc. \@ref(fig:ryc512)). 
 Dziewięć osób z każdej z grup wybrało odpowiedź, że poparcie wzrosło *między 20 a 40%*. 
 Pięć osób z pierwszej grupy oraz dziesięć z drugiej grupy uważa, że odpowiedź *40-60%* była poprawna. 
 Przedostatnią odpowiedź, wybrały dwie osoby z pierwszej oraz trzy osoby z drugiej grupy. 
@@ -141,7 +141,7 @@ knitr::include_graphics("figures/ryc513.png")
 
 W ostatnim pytaniu zadaniem było wybranie województwa, w którym była najmniejsza różnica wyników w II turze (Ryc. \@ref(fig:ryc513)). 
 W pierwszej grupie zastosowano anamorfozę nieciągłą, a w drugiej - anamorfozę ciągłą. 
-W obu grupach największą liczbę głosów zdobyło *województwo opolskie* - zostałaona wybrana przez 11 osób z grupy pierwszej oraz dziewięć z grupy drugiej. 
+W obu grupach największą liczbę głosów zdobyło *województwo opolskie* - zostałaona wybrana przez 11 osób z grupy pierwszej oraz dziewięć z grupy drugiej (Ryc. \@ref(fig:ryc514)). 
 Drugim najczęściej wybieranym województwem było *województwo podkarpackie* - sześć osób w każdej z grup uważało, że ta odpowiedź jest poprawna. 
 W grupie pierwszej *województwo mazowieckie* oraz *kujawsko-pomorskie* uzyskało po cztery głosy. 
 Pięć osób z drugiej grupy wybrało *województwo zachodniopomorskie*, a następne pięć - *lubelskie*. 

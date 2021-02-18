@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.10)  18 FEB 2021 13:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.10)  18 FEB 2021 13:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -877,7 +877,8 @@ LaTeX Font Info:    Trying to load font information for T1+ppl on input line 40
 .
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-) (./imienazwisko.aux)
+)
+No file imienazwisko.aux.
 \openout1 = `imienazwisko.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -994,30 +995,8 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 \openout3 = `imienazwisko.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'imienazwisko.bbl' found.
-(./imienazwisko.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                gissupport
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                krzywickablum3009
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                pkw_2020
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+Package biblatex Info: ... file 'imienazwisko.bbl' not found.
+No file imienazwisko.bbl.
 Package biblatex Info: Reference section=0 on input line 40.
 Package biblatex Info: Reference segment=0 on input line 40.
 Package hyperref Info: Link coloring ON on input line 40.
@@ -1039,7 +1018,6 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
-(./imienazwisko.out) (./imienazwisko.out)
 \@outlinefile=\write5
 \openout5 = `imienazwisko.out'.
 
@@ -1054,7 +1032,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvs' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<figures/uam-logo.jpg, id=91, 1707.37875pt x 332.24126pt>
+<figures/uam-logo.jpg, id=4, 1707.37875pt x 332.24126pt>
 File: figures/uam-logo.jpg Graphic file (type jpg)
 <use figures/uam-logo.jpg>
 Package pdftex.def Info: figures/uam-logo.jpg  used on input line 44.
@@ -1073,465 +1051,42 @@ LaTeX Font Info:    Font shape `T1/fvs/m/it' will be
 
 {c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
 x.map} <./figures/uam-logo.jpg>] [2]
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 13.49991pt on input line 47.
 LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 76.
+(Font)              scaled to size 12.9599pt on input line 63.
 [3]
-LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 13.49991pt on input line 79.
-[4]
 LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 21.59985pt on input line 97.
+(Font)              scaled to size 21.59985pt on input line 65.
 LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 21.59985pt on input line 97.
-(./imienazwisko.toc
-LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 3
-.
-(c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ot1ppl.fd
-File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
-)
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-3.
-(c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omlzplm.fd
-File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-3.
-(c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omszplm.fd
-File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-3.
-(c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omxzplm.fd
-File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
-)
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-3.
-(c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ot1zplm.fd
-File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `zplm' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-)
+(Font)              scaled to size 21.59985pt on input line 65.
 \tf@toc=\write6
 \openout6 = `imienazwisko.toc'.
 
-[5] [6
-
-]
+[4]
 Rozdzia\PlPrIeC {\l } 1.
 LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 18.66588pt on input line 100.
+(Font)              scaled to size 18.66588pt on input line 68.
 LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 100.
+(Font)              scaled to size 22.39185pt on input line 68.
 LaTeX Font Info:    Font shape `T1/fvs/m/it' will be
-(Font)              scaled to size 9.85492pt on input line 104.
-<figures/ryc11.jpg, id=149, 2139.995pt x 1480.53125pt>
-File: figures/ryc11.jpg Graphic file (type jpg)
-<use figures/ryc11.jpg>
-Package pdftex.def Info: figures/ryc11.jpg  used on input line 113.
-(pdftex.def)             Requested size: 401.50146pt x 277.75706pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7]
-<figures/ryc12.png, id=164, 1003.75pt x 599.23875pt>
-File: figures/ryc12.png Graphic file (type png)
-<use figures/ryc12.png>
-Package pdftex.def Info: figures/ryc12.png  used on input line 131.
-(pdftex.def)             Requested size: 301.1261pt x 179.77301pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/ryc13.png, id=165, 425.1885pt x 566.115pt>
-File: figures/ryc13.png Graphic file (type png)
-<use figures/ryc13.png>
-Package pdftex.def Info: figures/ryc13.png  used on input line 140.
-(pdftex.def)             Requested size: 200.75073pt x 267.29207pt.
-
-Underfull \hbox (badness 1152) in paragraph at lines 144--144
-[][]|\T1/ppl/m/it/10.95 (+20) Ma-pa wy-bo-rów par-la-men-tar-nych w Wiel-kiej B
-ry-ta-nii w 1895 ro-ku. ™ró-dªo:
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8 <./figures/ryc11.jpg>] [9 <./figures/ryc12.png> <./figures/ryc13.png>]
-<figures/ryc14.png, id=184, 4445.60875pt x 1628.0825pt>
-File: figures/ryc14.png Graphic file (type png)
-<use figures/ryc14.png>
-Package pdftex.def Info: figures/ryc14.png  used on input line 165.
-(pdftex.def)             Requested size: 401.50146pt x 147.01794pt.
-<figures/ryc15.png, id=186, 3730.93875pt x 1345.27594pt>
-File: figures/ryc15.png Graphic file (type png)
-<use figures/ryc15.png>
-Package pdftex.def Info: figures/ryc15.png  used on input line 174.
-(pdftex.def)             Requested size: 401.50146pt x 144.75803pt.
-[10 <./figures/ryc14.png> <./figures/ryc15.png>] [11] [12
-
-]
-Rozdzia\PlPrIeC {\l } 2.
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 2
-14.
-(c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ppl.fd
-File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-) [13]
-<figures/ryc21.png, id=220, 1284.8pt x 815.045pt>
-File: figures/ryc21.png Graphic file (type png)
-<use figures/ryc21.png>
-Package pdftex.def Info: figures/ryc21.png  used on input line 230.
-(pdftex.def)             Requested size: 401.50146pt x 254.70093pt.
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 23
-4.
-(c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bera/t1fvm.fd
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)
-LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <10.95> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 234.
-LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 9.85492pt on input line 234.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `fvm' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
-\T1/ppl/m/it/10.95 (+20) dªo: [][]$\T1/fvm/m/sl/10.95 https : / / commons . wik
-imedia . org / wiki / File : United _ States _
- []
-
-[14 <./figures/ryc21.png>]
-<figures/ryc22.png, id=234, 1024.82875pt x 232.87pt>
-File: figures/ryc22.png Graphic file (type png)
-<use figures/ryc22.png>
-Package pdftex.def Info: figures/ryc22.png  used on input line 257.
-(pdftex.def)             Requested size: 401.50146pt x 91.23111pt.
-[15 <./figures/ryc22.png (PNG copy)>]
-<figures/ryc23.png, id=246, 699.8145pt x 486.618pt>
-File: figures/ryc23.png Graphic file (type png)
-<use figures/ryc23.png>
-Package pdftex.def Info: figures/ryc23.png  used on input line 274.
-(pdftex.def)             Requested size: 401.50146pt x 279.17946pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/ryc24.png, id=254, 963.6pt x 640.3925pt>
-File: figures/ryc24.png Graphic file (type png)
-<use figures/ryc24.png>
-Package pdftex.def Info: figures/ryc24.png  used on input line 290.
-(pdftex.def)             Requested size: 401.50146pt x 266.82303pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--294
-[][]|\T1/ppl/m/it/10.95 (+20) Ana-mor-fo-za pro-jek-cji pod-czas wy-bo-rów pre-
-zy-denc-kich w USA.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--294
-\T1/ppl/m/it/10.95 (+20) Wiel-ko±¢ ka»-de-go sta-nu jest zgod-na z licz-b¡ gªo-
-sów. ™ró-dªo:
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[16] [17 <./figures/ryc23.png>] [18 <./figures/ryc24.png>]
-Rozdzia\PlPrIeC {\l } 3.
-
-Overfull \hbox (5.18039pt too wide) in paragraph at lines 341--341
- []|\T1/ppl/m/n/10.95 (-20) TERYT| 
- []
-
-
-Overfull \hbox (3.74022pt too wide) in paragraph at lines 341--341
- []|\T1/ppl/m/n/10.95 (-20) 100000| 
- []
-
-[19
-
-]
-Overfull \hbox (5.18039pt too wide) in paragraph at lines 362--362
- []|\T1/ppl/m/n/10.95 (-20) TERYT| 
- []
-
-[20]
-
-LaTeX Warning: Reference `(' on page 21 undefined on input line 381.
-
-
-Overfull \hbox (3.30722pt too wide) in paragraph at lines 399--399
- []|\T1/ppl/m/n/10.95 (-20) t2_roznica_glosow| 
- []
-
-
-Overfull \hbox (1.94562pt too wide) in paragraph at lines 399--399
- []|\T1/ppl/m/n/10.95 (-20) roznica_frek| 
- []
-
-
-LaTeX Warning: Reference `(' on page 21 undefined on input line 409.
-
-[21] [22]
-Rozdzia\PlPrIeC {\l } 4.
-<figures/ryc41.png, id=328, 2057.6875pt x 1405.25pt>
-File: figures/ryc41.png Graphic file (type png)
-<use figures/ryc41.png>
-Package pdftex.def Info: figures/ryc41.png  used on input line 457.
-(pdftex.def)             Requested size: 301.1261pt x 205.63223pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/ryc42.png, id=329, 1806.75pt x 1606.0pt>
-File: figures/ryc42.png Graphic file (type png)
-<use figures/ryc42.png>
-Package pdftex.def Info: figures/ryc42.png  used on input line 466.
-(pdftex.def)             Requested size: 301.1261pt x 267.64967pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[23
-
-] [24 <./figures/ryc41.png> <./figures/ryc42.png>]
-<figures/ryc43.png, id=346, 2057.6875pt x 1405.25pt>
-File: figures/ryc43.png Graphic file (type png)
-<use figures/ryc43.png>
-Package pdftex.def Info: figures/ryc43.png  used on input line 481.
-(pdftex.def)             Requested size: 301.1261pt x 205.63223pt.
-<figures/ryc44.png, id=350, 2005.4925pt x 1405.25pt>
-File: figures/ryc44.png Graphic file (type png)
-<use figures/ryc44.png>
-Package pdftex.def Info: figures/ryc44.png  used on input line 499.
-(pdftex.def)             Requested size: 301.1261pt x 210.99283pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/ryc45.png, id=351, 1806.75pt x 1606.0pt>
-File: figures/ryc45.png Graphic file (type png)
-<use figures/ryc45.png>
-Package pdftex.def Info: figures/ryc45.png  used on input line 508.
-(pdftex.def)             Requested size: 301.1261pt x 267.64967pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[25
-
- <./figures/ryc43.png>] [26 <./figures/ryc44.png> <./figures/ryc45.png>]
-<figures/ryc46.png, id=374, 1980.39874pt x 1405.25pt>
-File: figures/ryc46.png Graphic file (type png)
-<use figures/ryc46.png>
-Package pdftex.def Info: figures/ryc46.png  used on input line 526.
-(pdftex.def)             Requested size: 301.1261pt x 213.67313pt.
-<figures/ryc47.png, id=375, 1928.20375pt x 1509.64pt>
-File: figures/ryc47.png Graphic file (type png)
-<use figures/ryc47.png>
-Package pdftex.def Info: figures/ryc47.png  used on input line 535.
-(pdftex.def)             Requested size: 301.1261pt x 235.74246pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[27
-
- <./figures/ryc46.png>]
-<figures/ryc48.png, id=388, 2006.49625pt x 1405.25pt>
-File: figures/ryc48.png Graphic file (type png)
-<use figures/ryc48.png>
-Package pdftex.def Info: figures/ryc48.png  used on input line 555.
-(pdftex.def)             Requested size: 301.1261pt x 210.88562pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/ryc49.png, id=389, 1707.37875pt x 1606.0pt>
-File: figures/ryc49.png Graphic file (type png)
-<use figures/ryc49.png>
-Package pdftex.def Info: figures/ryc49.png  used on input line 564.
-(pdftex.def)             Requested size: 301.1261pt x 283.23521pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[28 <./figures/ryc47.png>] [29 <./figures/ryc48.png> <./figures/ryc49.png>]
-<figures/ryc410.png, id=408, 1934.22626pt x 1405.25pt>
-File: figures/ryc410.png Graphic file (type png)
-<use figures/ryc410.png>
-Package pdftex.def Info: figures/ryc410.png  used on input line 583.
-(pdftex.def)             Requested size: 301.1261pt x 218.75496pt.
-<figures/ryc411.png, id=409, 1815.78375pt x 1606.0pt>
-File: figures/ryc411.png Graphic file (type png)
-<use figures/ryc411.png>
-Package pdftex.def Info: figures/ryc411.png  used on input line 592.
-(pdftex.def)             Requested size: 301.1261pt x 266.32637pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/ryc412.png, id=410, 2870.725pt x 2810.5pt>
-File: figures/ryc412.png Graphic file (type png)
-<use figures/ryc412.png>
-Package pdftex.def Info: figures/ryc412.png  used on input line 601.
-(pdftex.def)             Requested size: 401.50146pt x 393.08136pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[30
-
- <./figures/ryc410.png>] [31 <./figures/ryc411.png>] [32 <./figures/ryc412.png>
-]
-Rozdzia\PlPrIeC {\l } 5.
-LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 626.
-<figures/ryc51.png, id=431, 3814.25pt x 1405.25pt>
-File: figures/ryc51.png Graphic file (type png)
-<use figures/ryc51.png>
-Package pdftex.def Info: figures/ryc51.png  used on input line 632.
-(pdftex.def)             Requested size: 401.50146pt x 147.9094pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[33
-
-]
-<figures/ryc52.png, id=440, 2107.875pt x 1355.0625pt>
-File: figures/ryc52.png Graphic file (type png)
-<use figures/ryc52.png>
-Package pdftex.def Info: figures/ryc52.png  used on input line 651.
-(pdftex.def)             Requested size: 301.1261pt x 193.57397pt.
-<figures/ryc53.png, id=441, 2631.8325pt x 1646.15pt>
-File: figures/ryc53.png Graphic file (type png)
-<use figures/ryc53.png>
-Package pdftex.def Info: figures/ryc53.png  used on input line 665.
-(pdftex.def)             Requested size: 401.50146pt x 251.10658pt.
-[34 <./figures/ryc51.png> <./figures/ryc52.png>]
-<figures/ryc54.png, id=453, 2107.875pt x 1355.0625pt>
-File: figures/ryc54.png Graphic file (type png)
-<use figures/ryc54.png>
-Package pdftex.def Info: figures/ryc54.png  used on input line 683.
-(pdftex.def)             Requested size: 301.1261pt x 193.57397pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/ryc55.png, id=454, 3971.83875pt x 1405.25pt>
-File: figures/ryc55.png Graphic file (type png)
-<use figures/ryc55.png>
-Package pdftex.def Info: figures/ryc55.png  used on input line 697.
-(pdftex.def)             Requested size: 401.50146pt x 142.0342pt.
-[35 <./figures/ryc53.png>] [36 <./figures/ryc54.png> <./figures/ryc55.png>]
-<figures/ryc56.png, id=473, 2107.875pt x 1355.0625pt>
-File: figures/ryc56.png Graphic file (type png)
-<use figures/ryc56.png>
-Package pdftex.def Info: figures/ryc56.png  used on input line 716.
-(pdftex.def)             Requested size: 301.1261pt x 193.57397pt.
-<figures/ryc57.png, id=474, 3283.26625pt x 1405.25pt>
-File: figures/ryc57.png Graphic file (type png)
-<use figures/ryc57.png>
-Package pdftex.def Info: figures/ryc57.png  used on input line 730.
-(pdftex.def)             Requested size: 401.50146pt x 171.83908pt.
-[37 <./figures/ryc56.png> <./figures/ryc57.png>]
-<figures/ryc58.png, id=487, 2258.4375pt x 1355.0625pt>
-File: figures/ryc58.png Graphic file (type png)
-<use figures/ryc58.png>
-Package pdftex.def Info: figures/ryc58.png  used on input line 749.
-(pdftex.def)             Requested size: 301.1261pt x 180.6718pt.
-<figures/ryc59.png, id=488, 2559.5625pt x 1606.0pt>
-File: figures/ryc59.png Graphic file (type png)
-<use figures/ryc59.png>
-Package pdftex.def Info: figures/ryc59.png  used on input line 763.
-(pdftex.def)             Requested size: 401.50146pt x 251.91711pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[38 <./figures/ryc58.png>]
-<figures/ryc510.png, id=499, 2107.875pt x 1355.0625pt>
-File: figures/ryc510.png Graphic file (type png)
-<use figures/ryc510.png>
-Package pdftex.def Info: figures/ryc510.png  used on input line 781.
-(pdftex.def)             Requested size: 301.1261pt x 193.57397pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/ryc511.png, id=500, 4254.89626pt x 1405.25pt>
-File: figures/ryc511.png Graphic file (type png)
-<use figures/ryc511.png>
-Package pdftex.def Info: figures/ryc511.png  used on input line 795.
-(pdftex.def)             Requested size: 401.50146pt x 132.59955pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/ryc512.png, id=502, 2107.875pt x 1355.0625pt>
-File: figures/ryc512.png Graphic file (type png)
-<use figures/ryc512.png>
-Package pdftex.def Info: figures/ryc512.png  used on input line 813.
-(pdftex.def)             Requested size: 301.1261pt x 193.57397pt.
-[39 <./figures/ryc59.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/ryc513.png, id=511, 4364.305pt x 2057.6875pt>
-File: figures/ryc513.png Graphic file (type png)
-<use figures/ryc513.png>
-Package pdftex.def Info: figures/ryc513.png  used on input line 827.
-(pdftex.def)             Requested size: 401.50146pt x 189.29698pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[40 <./figures/ryc510.png> <./figures/ryc511.png>]
-<figures/ryc514.png, id=523, 2107.875pt x 1355.0625pt>
-File: figures/ryc514.png Graphic file (type png)
-<use figures/ryc514.png>
-Package pdftex.def Info: figures/ryc514.png  used on input line 846.
-(pdftex.def)             Requested size: 301.1261pt x 193.57397pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[41 <./figures/ryc512.png> <./figures/ryc513.png>] [42 <./figures/ryc514.png>] 
-[43] [44] [45] [46
-
-]
-Rozdzia\PlPrIeC {\l } 6.
-[47]
-
-LaTeX Warning: Reference `put5' on page 48 undefined on input line 948.
-
-[48] [49] [50
-
-]
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 970.
-[51] [52] (./imienazwisko.aux)
-
-LaTeX Warning: There were undefined references.
-
-Package rerunfilecheck Info: File `imienazwisko.out' has not changed.
-(rerunfilecheck)             Checksum: 6DFCEE6EA2773F89EBBFB668D50DDE77;3325.
-Package logreq Info: Writing requests to 'imienazwisko.run.xml'.
-\openout1 = `imienazwisko.run.xml'.
-
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 114 (\begingroup)
-### bottom level 
+(Font)              scaled to size 9.85492pt on input line 72.
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 \begin{figure}[!H]
+                        
 Here is how much of TeX's memory you used:
- 22867 strings out of 481253
- 386704 string characters out of 5914581
- 1160051 words of memory out of 5000000
- 38698 multiletter control sequences out of 15000+600000
- 518602 words of font info for 412 fonts, out of 8000000 for 9000
+ 21358 strings out of 481253
+ 363303 string characters out of 5914581
+ 1135830 words of memory out of 5000000
+ 37844 multiletter control sequences out of 15000+600000
+ 463114 words of font info for 113 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 86i,12n,89p,1137b,17972s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dv
-ips/base/8r.enc}<c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
-public/bera/fvmr8a.pfb><c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/fonts
-/type1/public/bera/fvmro8a.pfb><c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-di
-st/fonts/type1/public/bera/fvsb8a.pfb><c:/Users/Maria/AppData/Roaming/TinyTeX/t
-exmf-dist/fonts/type1/public/bera/fvsr8a.pfb><c:/Users/Maria/AppData/Roaming/Ti
-nyTeX/texmf-dist/fonts/type1/public/bera/fvsro8a.pfb><c:/Users/Maria/AppData/Ro
-aming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/Users/Maria/Ap
-pData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/
-Maria/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on imienazwisko.pdf (52 pages, 31693697 bytes).
-PDF statistics:
- 669 PDF objects out of 1000 (max. 8388607)
- 534 compressed objects within 6 object streams
- 174 named destinations out of 1000 (max. 500000)
- 102757 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 86i,11n,89p,1137b,16143s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+!  ==> Fatal error occurred, no output PDF file produced!

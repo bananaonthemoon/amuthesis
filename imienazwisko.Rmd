@@ -1,3 +1,108 @@
+---
+title: "Porównanie technik przestrzennej wizualizacji wyników wyborów w Polsce"
+titleeng: "2020 presidential election results in Poland - comparsion of spatial visualisation techniques"
+degreetype: "Praca inżynierska"
+author: "Maria Król"
+major: "Geoinformacja"
+albumid: "431977"
+year: "2021"
+output: bookdown::pdf_book
+site: bookdown::bookdown_site
+link-citations: yes
+knit: "bookdown::render_book"
+---
+---
+title: "Porównanie technik przestrzennej wizualizacji wyników wyborów w Polsce"
+titleeng: "2020 presidential election results in Poland - comparsion of spatial visualisation techniques"
+degreetype: "Praca inżynierska"
+author: "Maria Król"
+major: "Geoinformacja"
+albumid: "431977"
+year: "2021"
+output: bookdown::pdf_book
+site: bookdown::bookdown_site
+link-citations: yes
+knit: "bookdown::render_book"
+---
+```{r include=FALSE, cache=FALSE}
+knitr::opts_chunk$set(
+  background = "#FCFCFC", # code chunk color in latex
+  comment = "#>",
+  collapse = TRUE,
+  # cache = TRUE,
+  fig.pos = "h",
+  fig.path = "figures/",
+  fig.align = "center",
+  fig.width = 6,
+  fig.asp = 0.618,  # 1 / phi
+  fig.show = "hold",
+  out.width = "100%"
+)
+
+#Ht
+```
+
+
+<!--chapter:end:index.Rmd-->
+
+
+
+
+<!--chapter:end:00-oswiadczenie.Rmd-->
+
+```{r include=FALSE, cache=FALSE}
+knitr::opts_chunk$set(
+  background = "#FCFCFC", # code chunk color in latex
+  comment = "#>",
+  collapse = TRUE,
+  # cache = TRUE,
+  fig.pos = "h",
+  fig.path = "figures/",
+  fig.align = "center",
+  fig.width = 6,
+  fig.asp = 0.618,  # 1 / phi
+  fig.show = "hold",
+  out.width = "100%"
+)
+
+#Ht
+```
+## Streszczenie {-}
+
+Streszczenie powinno przedstawiać skrótowo główny problem pracy i jego rozwiązanie.
+Możliwa struktura streszczenia to: (1) 1-3 zdania wstępu do problemu (czym się zajmujemy, dlaczego jest to ważne, jakie są problemy/luki do wypełnienia), (2) 1 zdanie opisujące cel pracy, (3) 1-3 zdania przedstawiające użyte materiały (dane) i metody (techniki, narzędzia), (4) 1-3 zdania obrazujące główne wyniki pracy, (5) 1-2 zdania podsumowujące; możliwe jest też określenie dalszych kroków/planów.
+
+Słowa kluczowe: (4-6 słów/zwrotów opisujących treść pracy, które nie wystąpiły w tytule)
+
+## Abstract {-}
+
+The abstract must be consistent with the above text.
+
+Keywords: (as stated before)
+
+\newpage
+
+\setstretch{1.2}\sf\tighttoc\doublespacing
+
+<!--chapter:end:00-abstrakt.Rmd-->
+
+```{r include=FALSE, cache=FALSE}
+knitr::opts_chunk$set(
+  background = "#FCFCFC", # code chunk color in latex
+  comment = "#>",
+  collapse = TRUE,
+  # cache = TRUE,
+  fig.pos = "h",
+  fig.path = "figures/",
+  fig.align = "center",
+  fig.width = 6,
+  fig.asp = 0.618,  # 1 / phi
+  fig.show = "hold",
+  out.width = "100%"
+)
+
+#Ht
+```
 # Wprowadzenie {#wprowadzenie}
 
 Wybory są jednym z podstawowych narzędzi współczesnych demokracji. 
@@ -67,3 +172,71 @@ Podjęto również próbę porównania właściwości rozpatrywanych technik ora
 W tym celu zostały zebrane oraz opracowane dane z Państwowej Komisji Wyborczej, które następnie posłużyły do stworzenia wizualizacji - do tego użyto dwa pakiety z języka R: *cartogram* [@r-cartogram] oraz *geogrid* [@r-geogrid]. 
 Opracowane zostały dwie wersje ankiety mające na celu ocenę stopnia trudności interpretacji wizualizacji. 
 Ankiety została przeprowadzone z udziałem studentów trzeciego oraz czwartego roku studiów na Wydziale Nauk Geograficznych i Geologicznych UAM, a w oparciu o jej wyniki przeprowadzono analizę czytelności każdej z technik wizualizacji.
+
+<!--chapter:end:01-roz1.Rmd-->
+
+
+# Przegląd literatury {#lit}
+
+Placeholder
+
+
+## Kartogramy właściwe oraz ciągłe {#kartogramy1}
+## Kartogramy geometryczne
+## Kartogramy eumorficzne
+
+<!--chapter:end:02-roz2.Rmd-->
+
+
+# Metody {#metody}
+
+Placeholder
+
+
+## Dane {#dane}
+## Biblioteki języka R {#biblioteki}
+
+<!--chapter:end:03-roz3.Rmd-->
+
+
+# Wizualizacje {#wizualizacje}
+
+Placeholder
+
+
+## Kartogram właściwy {#kartogramwlasciwy}
+## Kartogramy ciągłe {#kartogramyciagle}
+## Kartogramy geometryczne {#kartogramygeometryczne}
+## Anamorfoza ciągła {#anamorfozaciagla}
+## Anamorfoza nieciągła {#anamorfozanieciagla}
+## Kartodiagram Dorlinga {#kartodiagramdorlinga}
+
+<!--chapter:end:04-roz4.Rmd-->
+
+
+# Ankieta {#ankieta}
+
+Placeholder
+
+
+## Ankiety dotyczące map wyborczych {#ankietyintro}
+### Pytanie pierwsze {#pyt1}
+### Pytanie drugie {#pyt2}
+### Pytanie trzecie {#pyt3}
+### Pytanie czwarte {#pyt4}
+### Pytanie piąte {#pyt5}
+### Pytanie szóste {#pyt6}
+### Pytanie siódme {#pyt7}
+## Wnioski {#wnioski}
+
+<!--chapter:end:05-roz5.Rmd-->
+
+
+# Podsumowanie {#podsumowanie}
+
+Placeholder
+
+
+
+<!--chapter:end:06-roz6.Rmd-->
+
