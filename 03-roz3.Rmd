@@ -15,7 +15,7 @@ dane_woj1 = read.csv2("data/tabela31.csv", encoding = "UTF-8")
 
 kable(head(dane_woj1[c(1,2,4,25:26)], 5), align = 'c', format.args = list(scientific = FALSE), booktabs = TRUE, col.names = c('TERYT', 'Województwo', 'Liczba wyborców uprawnionych do głosowania','Andrzej Sebastian Duda', 'Rafał Kazimierz Trzaskowski'), caption = "Fragment surowych danych wyborczych z II tury Źródło: wybory.gov.pl",) %>%
 kable_styling("hover", full_width = F, latex_options = "scale_down") %>%
-row_spec(0, extra_css = "vertical- align:middle !important;") %>%
+row_spec(1, extra_css = "vertical- align:middle !important;") %>%
 kableExtra::column_spec(1, width = "1cm") %>%
 kableExtra::column_spec(2, width = "4cm") %>%
 kableExtra::column_spec(3, width = "3cm") %>%
@@ -29,24 +29,22 @@ Na podstawie danych obliczono m.in. frekwencję, odsetek głosów dla dwóch naj
 ```{r tabela32, echo=FALSE, fig.cap="Fragment wyczyszczonych danych wyborczych z II tury Źródło: wybory.gov.pl"}
 library(knitr)
 library(kableExtra)
-dane_woj2 = read.csv2("data/tabela32.csv", encoding = "UTF-8")
+dane_woj2 = read.csv2("data/tabela32.csv", encoding = "UTF-8", colClasses=c("X.U.FEFF.t1_TERYT"="character"))
 
 kable(head(dane_woj2[c(1,5:6,9:10)], 5), align = 'c', format.args = list(scientific = FALSE), booktabs = TRUE, col.names = c('TERYT','t1_Andrzej Sebastian Duda', 't1_Rafał Kazimierz Trzaskowski','t2_Andrzej Sebastian Duda', 't2_Rafał Kazimierz Trzaskowski'), caption = "Fragment wyczyszczonych danych wyborczych z II tury Źródło: wybory.gov.pl",) %>%
 kable_styling("hover", full_width = F, latex_options = "scale_down") %>%
-row_spec(0, extra_css = "vertical- align:middle !important;") %>%
+row_spec(1, extra_css = "vertical- align:middle !important;") %>%
 kableExtra::column_spec(1, width = "1cm") %>%
 kableExtra::column_spec(2, width = "4cm") %>%
-kableExtra::column_spec(3, width = "3cm") %>%
-kableExtra::column_spec(4, width = "3cm") %>%
-kableExtra::column_spec(5, width = "3cm")
+kableExtra::column_spec(3, width = "4cm") %>%
+kableExtra::column_spec(4, width = "4cm") %>%
+kableExtra::column_spec(5, width = "4cm")
 ```
 
 Dane z granicami administracyjnymi uzyskano ze strony GIS Support [@gissupport]. 
 Oryginalne dane pochodzą z Głównego Urzędu Geodezji i Kartografii, jednak nie jest stamtąd możliwe pobranie danych z podziałem na wybrane jednostki administracyjne (tj. powiatów, województw). 
 Wynikiem pobierania są skompresowane foldery z plikami w formacie ESRI Shapefile. 
 Każdy plik .shp posiada kolumny *'JPT_SJR_KO'*, *'JPT_KOD_JE'* oraz *'JPT_NAZWA_'*. Kolumna *'JPT_KOD_JE'* jest niezbędna do przeprowadzenia pomyślnego łączenia danych geograficznych z danymi wyborczymi.
-
-
 
 Czyszczenie danych zostały przeprowadzone w języku R[@R-base], konieczne jednak były poprawki geometrii na poziomie powiatowym – naprawiono je w programie QGIS. 
 Poniższy proces przebiegał praktycznie tak samo w każdym z arkuszy, pojedyncze dodatkowe kroki zostały przeprowadzone przy danych na poziomie gmin, gdzie niezbędne było wyszczególnienie jednostek wyłącznie z województwa wielkopolskiego. 
@@ -62,6 +60,21 @@ Poprzez kolumny *TERYT* złączono dane tekstowe z danymi geograficznymi do jedn
 Dodatkowo obliczono m.in. wyniki procentowe obu kandydatów oraz frekwencji, liczbową różnicę między kandydatami w II turze oraz różnicę frekwencji. 
 Złączony plik zapisano w formacie GeoPackage (rozszerzenie *.gpkg*).
 
+```{r tabela33, echo=FALSE, fig.cap="Fragment wyczyszczonych danych geograficznych oraz danych wyborczych z II tury Źródło: wybory.gov.pl"}
+library(knitr)
+library(kableExtra)
+dane_woj3 = read.csv2("data/tabela33.csv", encoding = "UTF-8")
+
+kable(head(dane_woj3[c(1,2, 16, 17, 18, 21, 22, 23)], 5), align = 'c', format.args = list(scientific = FALSE), booktabs = TRUE, col.names = c('TERYT','JPT_KOD_JE', 't1_frek',	't2_frek',	't1_duda', 't2_trzaskowski',	't2_roznica_glosow',	'roznica_frek'), caption = "Fragment wyczyszczonych danych wyborczych z II tury Źródło: wybory.gov.pl",) %>%
+kable_styling("hover", full_width = F, latex_options = "scale_down") %>%
+row_spec(1, extra_css = "vertical- align:middle !important;") %>%
+kableExtra::column_spec(1, width = "1cm") %>%
+kableExtra::column_spec(2, width = "4cm") %>%
+kableExtra::column_spec(3, width = "4cm") %>%
+kableExtra::column_spec(4, width = "4cm") %>%
+kableExtra::column_spec(5, width = "4cm")
+```
+
 Przedziały klas w mapach zostały ustawione ręcznie. 
 Kierowano się tym, aby każdy z przedziałów miał podobną liczbę obiektów, środkowa klasa mieściła w sobie wartość średnią, a skrajne przedziały zawierające wartości wychodzące poza jedno odchylenie standardowe. 
 
@@ -71,20 +84,20 @@ Głównym narzędziem stosowanym w pracy inżynierskiej był język *R*.
 Łącznie użytych zostało XYZ pakietów, z czego najważniejszymi pakietami wykorzystanymi w pracy były pakiety cartogram oraz geogrid, które umożliwiały transformacje danych przestrzennych. 
 Innymi pakietami użytymi były m.in.: dplyr[@r-dplyr], sf[@r-sf], tmap[@r-tmap] oraz tmaptools[@r-tmaptools].
 
-TAAAAAABEEEEEEEEEEELEEEEEEEEEEEECZKA
-.
+```{r tabela33, echo=FALSE, fig.cap="Fragment wyczyszczonych danych geograficznych oraz danych wyborczych z II tury Źródło: wybory.gov.pl"}
+library(knitr)
+library(kableExtra)
+dane_woj3 = read.csv2("data/tabela33.csv", encoding = "UTF-8")
 
-.
-
-.
-
-.
-
-..
-
-.
-
-.
+kable(head(dane_woj3[c(1,2, 16:23)], 5), align = 'c', format.args = list(scientific = FALSE), booktabs = TRUE, col.names = c('TERYT','JPT_KOD_JE', 't1_frek',	't2_frek',	't1_duda',	't1_trzaskowski',	't2_duda',	't2_trzaskowski',	't2_roznica_glosow',	'roznica_frek'), caption = "Fragment wyczyszczonych danych wyborczych z II tury Źródło: wybory.gov.pl",) %>%
+kable_styling("hover", full_width = F, latex_options = "scale_down") %>%
+row_spec(1, extra_css = "vertical- align:middle !important;") %>%
+kableExtra::column_spec(1, width = "1cm") %>%
+kableExtra::column_spec(2, width = "4cm") %>%
+kableExtra::column_spec(3, width = "4cm") %>%
+kableExtra::column_spec(4, width = "4cm") %>%
+kableExtra::column_spec(5, width = "4cm")
+```
 
 Pakiet *cartogram* składa się z trzech funkcji: *cartogram_cont(), cartogram_ncont(), oraz cartogram_dorling()*.
 *Cartogram_cont()* służy do tworzenia kartogramu anamorficznego ciągłego za pomocą algorytmu zniekształcenia arkusza gumy - gubbersheetingu [@dougenik1985].
