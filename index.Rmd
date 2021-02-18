@@ -2,8 +2,8 @@
 title: "Porównanie technik przestrzennej wizualizacji wyników wyborów w Polsce"
 titleeng: "2020 presidential election results in Poland - comparison of spatial visualisation techniques"
 degreetype: "Praca inżynierska"
-author: "THILDAAAAAAA"
-major: "YORKETOOOON"
+author: "Maria Król"
+major: "Geoinformacja"
 albumid: "431977"
 year: "2021"
 output: bookdown::pdf_book
