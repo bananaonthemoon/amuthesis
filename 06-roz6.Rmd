@@ -28,7 +28,7 @@ Kartogramy geometryczne mogą mieć jednak zastosowanie, kiedy chcemy, aby użyt
 
 Z odpowiedzi dla anamorfozy ciągłej na przykładzie powiatów wynika, że ankietowani nie byli w stanie dostatecznie doszacować wyniku. 
 W obu przypadkach (Podozdziały \@ref(pyt1) oraz \@ref(pyt6)) wyniki były podobne do poprawnej odpowiedzi lub odsetek do większości odpowiedzi był podobny. 
-Za to w podrozdziale \@ref(put5) połowa ankietowanych odpowiedziała poprawnie (30-40%), na sąsiedni wariant 40-50% zagłosowało 38,2%. 
+Za to w podrozdziale \@ref(pyt5) połowa ankietowanych odpowiedziała poprawnie (30-40%), na sąsiedni wariant 40-50% zagłosowało 38,2%. 
 W przypadku tej techniki wizualizacji nie można wyciągnąć jednoznacznego wniosku w kwestii jej czytelności i sugerowana jest dalsza praca w tym temacie.
 
 Wyniki jednoznacznie pokazują, że anamorfozy nieciągłe stanowią problem dla ankietowanych. 

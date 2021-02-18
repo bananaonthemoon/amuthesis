@@ -168,7 +168,7 @@ Bazując na tym wyniku oraz zasadzie kartograficznej, która nie zaleca używani
 Ludzkie oko nie jest w stanie rozróżnić oraz zidentyfikować tak wielu odcieni jednej barwy na mapie. 
 Prostym rozwiązaniem byłoby zastosowanie kartogram właściwego oraz przedziałów klasowych.
 
-W pytaniu, gdzie użyto kartogramu heksagonalnego dla gmin województwa wielkopolskiego, nie uzyskano jednoznacznej odpowiedzi u ankietowanych - 98% głosów została podzielona między trzy odpowiedzi, w zakresie od *< 20%* do *40-50%*. 
+W pytaniu, gdzie użyto kartogramu heksagonalnego dla gmin województwa wielkopolskiego, nie uzyskano jednoznacznej odpowiedzi u ankietowanych - 98% głosów zostało podzielonych między trzy odpowiedzi, w zakresie od *< 20%* do *40-50%*. 
 Może to sugerować kilka wniosków. 
 Po pierwsze, że mapa nie jest wystarczająco czytelna dla odbiorców. 
 Po drugie, że zastosowanie takich samych pól odniesienia utrudnia ankietującym oszacowanie wyniku. 
