@@ -3,6 +3,6 @@ Wczytanie danych wyborczych;dplyr, stringr, utils
 Czyszczenie i agregowanie danych wyborczych;dplyr
 Wczytanie danych przestrzennych;dplyr, sf, utils
 Uproszczenie geometrii oraz czyszczenie;dplyr, rmapshaper, stringr
-Łączenie, uzupełnianie oraz zapisywanie danych;sf
+Łączenie, uzupełnianie i zapisywanie danych;sf
 Wczytanie danych oraz tworzenie wizualizacji przy użyciu pakietu cartogram;cartogram, dplyr, sf, tmap, tmaptools 
 Wczytanie danych oraz tworzenie wizualizacji przy użyciu pakietu geogrid;geogrid, dplyr, sf, tmap, tmaptools 

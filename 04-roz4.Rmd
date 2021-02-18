@@ -83,7 +83,7 @@ Atutem tej techniki jest możliwość wyróżnienia obszarów o dużej intensywn
 Tak jak w przypadku dwóch powyższych technik, zalecane jest użycie danych, który mają szeroki zakres wartości. 
 Przykładem na to jest Ryc. \@ref(fig:ryc410) - wygenerowana wizualizacja wyraźnie reprezentuje wysokie wartości. 
 Na poziomie gmin jednego województwa różnice są również widoczne, nawet przy użyciu wąskiego zakresu wartości (Ryc. \@ref(fig:ryc411)). 
-W przypadku powiatów dla całego kraju jednak można napotkać się na problem z natłokiem oraz rozmieszczeniem kół, co wpływa na ocenę wizualną użytkownika. Tak jak wspomniano w rozdziale \@ref(biblioteki) oraz zaprezentowano na Ryc. \@ref(fig:ryc412), poprzez manipulację argumentami możemy m.in. określić udział obwiedni x wypełnionej większym okręgiem. Przekłada się to na częściowe zachowanie kształtu wizualizacji i ułatwienie odbioru informacji z mapy.  
+W przypadku powiatów dla całego kraju jednak można napotkać się na problem z natłokiem oraz rozmieszczeniem kół, co wpływa na ocenę wizualną użytkownika. Tak jak wspomniano w rozdziale \@ref(biblioteki), poprzez manipulację argumentami możemy m.in. określić udział obwiedni jednostki wypełnionej większym okręgiem (Ryc. \@ref(fig:ryc412). Przekłada się to na częściowe zachowanie kształtu wizualizacji i ułatwienie odbioru informacji z mapy.
 
 ```{r ryc410, echo=FALSE, fig.cap="Przykład anamorfozy ciągłej na poziomie województw - wzrost poparcia dla Andrzeja Dudy w II turze wyborów. Źródło: opracowanie własne na podstawie danych PKW", out.width=300}
 knitr::include_graphics("figures/ryc410.png")
@@ -93,6 +93,6 @@ knitr::include_graphics("figures/ryc410.png")
 knitr::include_graphics("figures/ryc411.png")
 ```
 
-```{r ryc412, echo=FALSE, fig.cap="Przykłady kartogramu geometrycznego na poziomie powiatów z trzema wariantami argumentu k - różnica głosów między kandydatami w II turze wyborów.  Źródło: opracowanie własne na podstawie danych PKW", out.width=400}
+```{r ryc412, echo=FALSE, fig.cap="Przykłady kartogramu geometrycznego na poziomie powiatów z trzema wariantami argumentu k - różnica głosów między kandydatami w II turze wyborów.Źródło: opracowanie własne na podstawie danych PKW", out.width=400}
 knitr::include_graphics("figures/ryc412.png")
 ```

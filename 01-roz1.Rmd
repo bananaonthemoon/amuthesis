@@ -14,7 +14,7 @@ knitr::include_graphics("figures/ryc11.jpg")
 ```
 
 Postęp w technikach kartograficznych nabrał tempa wraz z rozwojem drukarstwa oraz możliwością tworzenia niestandardowych grafik do gazet [@kongres2013]. 
-Pozwoliło to na spopularyzowanie mapy jako formy reprezentacji danych wyborczych oraz w konsekwencji, rozwój technik tworzenia map (Ryc.   \@ref(fig:ryc12)-\@ref(fig:ryc13)).
+Pozwoliło to na spopularyzowanie mapy jako formy reprezentacji danych wyborczych oraz w konsekwencji, rozwój technik tworzenia map (Ryc. \@ref(fig:ryc12)-\@ref(fig:ryc13)).
 
 Pomimo swojej długiej historii, mapy wyborcze stały się popularne dopiero w ciągu ostatnich 30 lat. 
 W połączeniu z rozwojem technologii mapy stały się jednymi z najbardziej efektywnych sposobów uwieczniania informacji o charakterze przestrzennym, w tym danych wyborczych. 
@@ -56,7 +56,7 @@ knitr::include_graphics("figures/ryc15.png")
 
 Jak wspomniano wyżej, wizualizacja map wyborczych w Polsce ogranicza się w znacznej części do kartogramów skokowych. 
 Istnieją inne formy wizualizacji, które przykładają mniejszą wagę do powierzchni i pozwalają na dokładniejsze przedstawienie wartości. 
-Są to, m.in., kartogramy geometryczne oraz anamorfozy (kartogramy odwrócone).  
+Są to, m.in., kartogramy geometryczne oraz anamorfozy (kartogramy odwrócone). 
 Niska popularność tych form jest związana z przyzwyczajeniem społeczeństwa do analizowania map opartych o jednostki administracyjne jak powiaty lub województwa. 
 Trudność potrafią sprawić również zniekształcenia związane z anamorfozą, w skrajnych przypadkach powierzchnia jednostki odniesienia może być nie do rozpoznania. 
 Do prawidłowej interpretacji powyżej wspomnianych dwóch rodzajów map niezbędna jest również wiedza o rozmiarach i rozmieszczeniu jednostek.

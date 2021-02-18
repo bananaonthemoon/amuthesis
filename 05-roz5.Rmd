@@ -85,7 +85,7 @@ W pytaniu 4 ankietowani mieli za zadanie wymienić trzy województwa z najwyższ
 W pierwszej grupie do wizualizacji został użyty kartogram geometryczny (heksagonalny), a w drugiej - anamorfoza nieciągła. 
 Było to jedno z najtrudniejszych pytań dla ankietowanych, bowiem tylko 20,6% (siedem osób) w pierwszej grupie udało się na nie odpowiedzieć prawidłowo.
 Najwięcej osób wybierało województwo mazowieckie oraz wielkopolskie jako te, które mają najwyższą frekwencję. 
-W grupie drugiej  nikomu nie udało się poprawnie odpowiedzieć na to pytanie - tylko siedem osób wybrało województwo małopolskie, a dziesięć osób województwo pomorskie. 
+W grupie drugiej nikomu nie udało się poprawnie odpowiedzieć na to pytanie - tylko siedem osób wybrało województwo małopolskie, a dziesięć osób województwo pomorskie. 
 Najczęstszą odpowiedzią drugiej grupy było “woj. mazowieckie, woj. pomorskie, woj. wielkopolskie”. 
 W pierwszej grupie poza prawidłową odpowiedzią, popularna była również odpowiedź *woj. mazowieckie, woj. pomorskie, woj. śląskie* (sześć osób) oraz *woj. małopolskie, woj. mazowieckie, woj. zachodniopomorskie* (pięć osób).
 
@@ -141,7 +141,7 @@ knitr::include_graphics("figures/ryc513.png")
 
 W ostatnim pytaniu zadaniem było wybranie województwa, w którym była najmniejsza różnica wyników w II turze (Ryc. \@ref(fig:ryc513)). 
 W pierwszej grupie zastosowano anamorfozę nieciągłą, a w drugiej - anamorfozę ciągłą. 
-W obu grupach największą liczbę głosów zdobyło *województwo opolskie* - została  ona wybrana przez 11 osób z grupy pierwszej oraz dziewięć z grupy drugiej. 
+W obu grupach największą liczbę głosów zdobyło *województwo opolskie* - zostałaona wybrana przez 11 osób z grupy pierwszej oraz dziewięć z grupy drugiej. 
 Drugim najczęściej wybieranym województwem było *województwo podkarpackie* - sześć osób w każdej z grup uważało, że ta odpowiedź jest poprawna. 
 W grupie pierwszej *województwo mazowieckie* oraz *kujawsko-pomorskie* uzyskało po cztery głosy. 
 Pięć osób z drugiej grupy wybrało *województwo zachodniopomorskie*, a następne pięć - *lubelskie*. 
@@ -189,7 +189,7 @@ Dodatkowo wyniki pytań, w których użyte były kartogramy heksagonalne oraz ka
 Anamorfoza ciągła na przykładzie ostatniego pytania wypada gorzej od anamorfozy nieciągłej, jednak w obu przypadkach udało się w znacznej mierze odpowiedzieć poprawnie. 
 Wyniki również sugerują, że część ankietowanych nie przeczytała dokładnie pytania, bowiem sześć osób z każdej grup wybrało województwo, w którym była największa różnica liczby głosów (zadanie miało na celu wskazanie województwa z najmniejszą różnicą głosów - przypomina autorka). 
 Być może znaczne zniekształcenie niektórych z województw utrudniło ankietowanym określenie ich rozmiaru wobec sąsiadujących jednostek. 
-W zadaniu 6 anamorfoza ciągła dała gorsze wyniki w porównaniu z  kartogramem geometrycznym, bowiem nie udało się uzyskać jednoznaczne poprawnej odpowiedzi. 
+W zadaniu 6 anamorfoza ciągła dała gorsze wyniki w porównaniu z kartogramem geometrycznym, bowiem nie udało się uzyskać jednoznaczne poprawnej odpowiedzi. 
 Warianty *< 20%, 20-40%* i *40-60%* różniły się między sobą jednym lub dwoma głosami. 
 Całkowicie inaczej było w pytaniu 5, gdzie znaczna część ankietowanych wybrała poprawny zakres, w mniejszym stopniu ankietowani wybrali sąsiadujący zakres (poprawna odpowiedź wynosiła 37,8%, a przedziały dzieliły się na zakresy *30-40%* oraz *40-50%*, przez co można podejrzewać, że ta mniejsza część ankietowanych nieznacznie przeszacowała wynik). 
 Wyniki sugerują te same wnioski przy pytaniu 1.
@@ -201,7 +201,7 @@ Dodatkowym utrudnieniem dla osób ankietowanych było zastosowanie odsetku frekw
 Różnica między najmniejszym a największym odsetkiem frekwencji wynosiła tylko 13,9%. 
 Skutkiem tego były mało wyraźne różnice między jednostkami.
 
-W pytaniu 7 w grupie pierwszej również została użyta anamorfoza nieciągła, zastosowane jednak zostały wartości bezwzględne, a różnice wartości między każdym polem odniesienia wynosiły dziesiątki tysięcy  - pozwoliło to na wyraźne zaznaczenie województw. 
+W pytaniu 7 w grupie pierwszej również została użyta anamorfoza nieciągła, zastosowane jednak zostały wartości bezwzględne, a różnice wartości między każdym polem odniesienia wynosiły dziesiątki tysięcy - pozwoliło to na wyraźne zaznaczenie województw. 
 Pomimo tego, tylko 30,6% osób wybrało prawidłową odpowiedź, a 17,6% wybrało *województwo podkarpackie*, które było jednostką z największą różnicą głosów. 
 Sugeruje to, że część ankietowanych mogło źle zrozumieć pytanie, tak jak w przypadku anamorfozy ciągłej.
 
@@ -209,7 +209,7 @@ Z zadania, w którym został użyty kartodiagram Dorlinga wynika, że 23% ankiet
 Nie była to jednak najczęściej wybierana odpowiedź (jest to *20-30%* wybrane przez 11 os.). 
 W tym pytaniu wyniki nie wykazały wyraźnie jednej dominującej odpowiedzi, każda miała podobną liczbę głosów. 
 Opierając się o wyniki z pytania 2, kartodiagram Dorlinga okazuje się być nieadekwatny dla wizualizacji, w których zjawisko ma mały zakres wartości (np. odsetek frekwencji. Duże różnice między jednostkami umożliwiają nam na wyraźne zaznaczenie). 
-Duża liczba pól podstawowych również utrudnia osobom zebranie i oszacowanie informacji z mapy.  
+Duża liczba pól podstawowych również utrudnia osobom zebranie i oszacowanie informacji z mapy. 
 W przypadku, gdy mamy zmniejszą liczbę jednostek odniesienia oraz dane są przedstawiane w wartościach bezwzględnych, można łatwiej przekazać użytkownikowi informacje.
 
 Biorąc pod uwagę wyniki ogółem, autorka śmie stwierdzić, że znaczna część ankietowanych w obu grupach nie potrafi odróżnić niektórych województw, np. pomorskiego i zachodniopomorskiego (Pytanie 4).
