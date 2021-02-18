@@ -1,7 +1,54 @@
 # Podsumowanie {#podsumowanie}
 
-Podsumowanie pracy jest w pewnym sensie znacznie rozbudowanym abstraktem. 
-Należy wyliczyć i opisać osiągnięcia uzyskane w pracy dyplomowej.
-Tutaj jednak (w przeciwieństwie do np. rozdziału \@ref(wprowadzenie)) należy przechodzić od szczegółu do ogółu - co zostało stworzone/określone, jak zostało to zrobione, jakie ma to konsekwencje, itd.
+W niniejszej pracy podjęto próbę porównania różnych technik wizualizacji na przykładzie wyborów prezydenckich w Polsce. 
+Określono, czym są wybory oraz przedstawiono historię map wyborczych na przykładzie map wyborów prezydenckich w Stanach Zjednoczonych oraz wyborach parlamentarnych w Wielkiej Brytanii. 
+Omówiono również krótką historię map wyborczych w Polsce oraz jej przykłady. 
+Następnie wskazano brak różnorodności w wizualizacjach tych map. 
+Na podstawie literatury przedstawiono charakterystykę istniejących metod wizualizacji oraz ich przykłady. 
+Opisano proces zbierania i opracowywania danych. 
+Przedstawiono przykłady każdej badanej techniki wizualizacji na przykładzie jednostek administracyjnych Polski. 
+Zanalizowane zostały również wyniki ankiet przeprowadzonych w ramach niniejszej pracy i oparto o nie wnioski.
 
-Ten rozdział powinien też zawierać opis kwestii, których nie udało się rozwiązać w pracy dyplomowej (i dlaczego się nie udało) oraz pomysły na przyszłe ulepszenie uzyskanych wyników lub dalsze badania.
+W rozdziale 4 zaprezentowano każdą z badanych technik wizualizacji w kontekście odniesienia dla Polski oraz jej jednostek administracyjnych. 
+Omówiono zalety oraz ograniczenia każdej z map oraz możliwe sposoby na optymalną reprezentację każdej z jednostek.
+
+Najpopularniejsza technika wizualizacji danych wyborczych w kontekście przestrzennym należy do kartogramu właściwego. 
+Często nie jest to jednak adekwatna, ponieważ uwzględnia w sobie powierzchnię, która nie musi być proporcjonalna do intensywności zjawiska. 
+W celu znalezienia alternatywnej techniki wizualizacji, zbadano inne rodzaje kartogramów, m.in. kartogram ciągły, geometryczny oraz kartogramy odwrócone, tzw. anamorfozy. 
+Badanie przeprowadzono w postaci ankiety - została ona udostępniona w dwóch wariantach 68 studentom trzeciego oraz czwartego roku Wydziału Nauk Geograficznych i Geologicznych UAM.
+
+Wyniki ankiety pokazują, że ankietowani mieli problemy zarówno z szacowaniem odsetków prezentowanych zjawisk oraz wskazywaniem konkretnych województw. 
+Na ich podstawie udało się jednak się jednak ustalić, kiedy techniki wizualizacji nie powinny być stosowane. 
+Na podstawie wyników ankiety można stwierdzić, że kartogramy ciągłe nie są odpowiednie do prezentowania danych wyborczych. 
+Zdaniem autorki podobne mogą wystąpić również w przypadku wizualizacji innych zjawisk, w szczególności społeczno-ekonomicznych.
+
+Wyniki z map zawierających kartogramy geometryczne niewątpliwie pokazują, że taki rodzaj kartogramu nie powinien być używany, jeśli mamy na celu wyszczególnienie pojedynczych jednostek. 
+Nie mamy możliwości, że odbiorca będzie w stanie dokładnie je zlokalizować pośród jednakowo wyglądających pól odniesienia. 
+Kartogramy geometryczne mogą mieć jednak zastosowanie, kiedy chcemy, aby użytkownik był w stanie oszacować odsetek zjawiska ogółem, bez wskazywania pojedynczych jednostek lub jeśli dokładna lokalizacja każdej pojedynczej z jednostek nie jest ważnym elementem mapy (np. specyfika tego kartogramu niemożliwa jest umiejscowienie miasta Poznań wewnątrz powiatu poznańskiego).
+
+Z odpowiedzi dla anamorfozy ciągłej na przykładzie powiatów wynika, że ankietowani nie byli w stanie dostatecznie doszacować wyniku. 
+W obu przypadkach (Podozdziały \@ref(pyt1) oraz \@ref(pyt6)) wyniki były podobne do poprawnej odpowiedzi lub odsetek do większości odpowiedzi był podobny. 
+Za to w podrozdziale \@ref(put5) połowa ankietowanych odpowiedziała poprawnie (30-40%), na sąsiedni wariant 40-50% zagłosowało 38,2%. 
+W przypadku tej techniki wizualizacji nie można wyciągnąć jednoznacznego wniosku w kwestii jej czytelności i sugerowana jest dalsza praca w tym temacie.
+
+Wyniki jednoznacznie pokazują, że anamorfozy nieciągłe stanowią problem dla ankietowanych. 
+W przypadku, kiedy różnice w wartościach są nieznaczne, mechanizm działania tej techniki czyni niemożliwym prawidłowe wybranie odpowiedzi bez wcześniejszego zaznajomienia się z nią. 
+Jednak gdy użyte zostają dane, które znacznie różnią się od siebie, są one o wiele bardziej zrozumiałe dla odbiorcy (sugerowana jest różnica wartości na poziomie kilku, kilkunastu tysięcy. 
+Zalecane są wartości bezwzględne, tak jak w podrozdziale \@ref(pyt7)).
+
+Kartodiagram Dorlinga wydaje się być nieodpowiedni dla wizualizacji, gdzie mamy do czynienia z małą różnicą w wartościach oraz z dużą liczbą pól odniesienia. 
+Wizualizacja, w której użyte jest wiele kół o podobnym rozmiarze utrudnia lub nawet uniemożliwia odczytanie informacji. 
+Zalecane w tym przypadku jest zastosowanie danych w formie wartości bezwzględnych oraz z szerokim zakresem wartości.
+
+Istotnym czynnikiem w analizie map jest również liczba kolorów oraz odcieni użytych do przedstawienia zmienności zjawiska. 
+Ludzkie oko nie jest w stanie rozróżnić zbyt wielu odcieni jednego koloru na mapie, czego rezultatem może być niedoszacowanie intensywności zjawiska. 
+Rozwiązaniem jest m.in. użycie kartogramu właściwego, który wykorzystuje skalę skokową.
+
+Pomimo określenia szeregu prawidłowości wymienionych powyżej, warto jest także wykazać kilka sugestii do podobnych badań. 
+Wśród tych sugestii szczególne znaczenie ma równe podzielenie technik wizualizacji w ankietach. 
+Pozwoli to na lepsze analizowanie wyników oraz wyciąganie wniosków. 
+Sugerowane jest również powtarzanie pytań przy jednoczesnym użyciu innych jednostek odniesienia lub/i technik wizualizacji. 
+Informacje zwrotne od osób ankietowanych pozwoliłoby na rozstrzygnięcie hipotez dotyczących wyników. 
+
+
+

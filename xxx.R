@@ -16,3 +16,4 @@ Przykładowe cytowanie języka R bez nawiasu to @R-base, a pakietu **kableExtra*
 
 Przykładowo, "te kwestie zostały opisane w podrozdziale \@ref(podr)
 
+(Tabela \@ref(tab:tabela1))

@@ -20,15 +20,17 @@ Dobór zależy w dużej mierze od charakterystyki rozkładu danych, jednak najcz
 * przedziały analityczne, które wyznaczane są poprzez analizę danych, np. wyznaczanie przedziałów według postępu arytmetycznego lub geometrycznego.
 
 Chociaż kartogram jest powszechnie używany, jest on często nieadekwatny i prowadzi do mylnej interpretacji [@leonowicz2006]. 
-Dobrym przykładem jest kartogram przedstawiający udział głosów w wyborach prezydenckich w Stanach Zjednoczonych w 2016 roku, przedstawiony na Ryc.\@ref(fig:ryc21). 
+Dobrym przykładem jest kartogram przedstawiający udział głosów w wyborach prezydenckich w Stanach Zjednoczonych w 2016 roku, przedstawiony na Ryc. \@ref(fig:ryc21). 
 Użyta została rozbieżna paleta kolorów, gdzie czerwony kolor oznacza przewagę głosów oddanych na kandydata Partii Republikańskiej, a kolor niebieski – Partii Demokratycznej. 
 Im ciemniejszy kolor, tym większy udział partii na danym obszarze.
 
-```{r ryc21, echo=FALSE, fig.cap="Mapa wyborów prezydenckich w Stanach Zjednoczonych w 2020 roku. Źródło: https://commons.wikimedia.org/wiki/File:United_States_presidential_election_results_by_county,_2020.svg", out.width=400}
+(ref:linkwiki) https://commons.wikimedia.org/wiki/File:United_States_presidential_election_results_by_county,_2020.svg
+
+```{r ryc21, echo=FALSE, fig.cap="Mapa wyborów prezydenckich w Stanach Zjednoczonych w 2020 roku.     Źródło: (ref:linkwiki)", out.width=400}
 knitr::include_graphics("figures/ryc21.png")
 ```
 
-Na pierwszy rzut oka można wywnioskować, że Partia Republikańska dominuje w znacznym stopniu na mapie nad Partią Demokratyczną.  
+Na pierwszy rzut oka można wywnioskować, że Partia Republikańska dominuje w znacznym stopniu na mapie nad Partią Demokratyczną.
 Można nawet przypuścić, że kandydat Partii Republikańskiej zdecydowanie wygrał pod względem głosów na niego oddanych. 
 Nie jest to jednak prawda, bowiem kolory i ich rozkład przestrzenny nie uwzględnia w tym przypadku powierzchni i częściowo zmylają odbiorcę jakoby rozmieszczenie ludności było równe. 
 
@@ -40,7 +42,7 @@ Gdyby jednak uwzględnić gęstość zaludnienia, okazałoby się, że znaczna c
 ## Kartogramy geometryczne
 
 W kartogramach geometrycznych jednostki przestrzenne zostają zastąpione polami o jednakowym kształcie i wielkości. 
-Najczęściej do tego używane są sześcioboki (heksagony) oraz prostokąty, których przykład jest widoczny na Ryc.\@ref(fig:ryc22), w mniejszym stopniu trójkąty. 
+Najczęściej do tego używane są sześcioboki (heksagony) oraz prostokąty, których przykład jest widoczny na Ryc. \@ref(fig:ryc22), w mniejszym stopniu trójkąty. 
 Kartogramy geometryczne są wyjątkowo przydatne przy porównaniach pomiędzy latami, kiedy istnieje szansa, że granice jednostek się zmieniły [@ratajski1989].  
 Kartogramy geometryczne pozwalają nam również ograniczyć stronniczość związany z powierzchnią jednostki. 
 (dobrym przykładem dla zastosowania takich pól są Stany Zjednoczone, gdzie większość stanów jest słabo zaludnionych, a jednocześnie są znaczną częścią łącznej powierzchni kraju).
@@ -56,18 +58,18 @@ Różnią się również sposobem wyrażania zmiennych – powierzchnia oraz geo
 Skutkiem tego są nienaturalnie zniekształcone i „napęczniałe” kształty. 
 Popularność tego rodzaju kartogramów jest niska ze względu na trudności, które odbiorca napotyka [@lamparski2018]. W polskiej literaturze pojawiają się one w kilku wariantach: jako kartogramy eumorficzne lub odwrócone [@ratajski1989], mapy anamorficzne, które następnie dzielone są na mapy anamorficzne styczne i niestyczne [@zyszkowska2012] lub ciągłe i nieciągłe (najczęściej używane w artykułach naukowych, np. @lamparski2018, tłum. z języka angielskiego – *contiguous* oraz *non contiguous*). Warto zaznaczyć, że w języku angielskim kartogram nazywany jest choropleth map i nie należy go mylić z metodą nazwaną cartogram, która odnosi się do map anamorficznych. W tej pracy używane jest pojęcie mapa anamorficzna, mapa anamorficzna ciągła lub nieciągła.
 
-Własności anamorfoz została podsumowana na Ryc.\@ref(fig:ryc23) [@roth2010]. 
-Przedstawia ona *Cartogram Cube* - jest to graficzna metoda przedstawiania zależności między cechami wpływającymi na atrybuty informacyjne map [@markowska2019].
-
-```{r ryc23, echo=FALSE, fig.cap="Cartogram Cube - bryła przedstawiająca właściwości anamorfoz powierzchniowych. Anamorfozy ciągłe zaznaczono na niebiesko, na zielono - anamorfozy nieciągłe, na fioletowo - tradycyjną mapę, a na czerwono - idealną anamorfozę. Rycina powstała na podstawie artykułu R.E. Roth i in. 2010 Źródło: [@markowska2019]", out.width=400}
+```{r ryc23, echo=FALSE, fig.cap="Cartogram Cube - bryła przedstawiająca właściwości anamorfoz powierzchniowych. Anamorfozy ciągłe zaznaczono na niebiesko, na zielono - anamorfozy nieciągłe, na fioletowo - tradycyjną mapę, a na czerwono - idealną anamorfozę.  Źródło: Rycina powstała na podstawie artykułu R.E. Roth i in. 2010 (Markowska, 2019)", out.width=400}
 knitr::include_graphics("figures/ryc23.png")
 ```
 
+Własności anamorfoz została podsumowana na Rycinie \@ref(fig:ryc23) [@roth2010]. 
+Przedstawia ona *Cartogram Cube* - jest to graficzna metoda przedstawiania zależności między cechami wpływającymi na atrybuty informacyjne map [@markowska2019].
+
 Anamorfoza ciągła, w przeciwieństwie do anamorfozy nieciągłej, zachowuje swoją topologię, natomiast zmianom ulega zarówno kształt jak i powierzchnia jednostki. 
-Jest to także najtrudniejsza forma anamorfozy do skonstruowania, a jednocześnie najbardziej atrakcyjne i skuteczne anamorfozy pod względem graficznego przedstawienia danych niegeometrycznych (Ryc.\@ref(fig:ryc24)). 
+Jest to także najtrudniejsza forma anamorfozy do skonstruowania, a jednocześnie najbardziej atrakcyjne i skuteczne anamorfozy pod względem graficznego przedstawienia danych niegeometrycznych (Ryc. \@ref(fig:ryc24)). 
 Rezultatem tego są opracowane algorytmy, m.in. Gastnera i Newmana [@gastner2004], Dougenika [@dougenik1985] oraz Gusein-Zade’a i Tikunova [@guseinzade1993]. Różnią się one m.in. stopniem zachowania kształtu oraz poprawnością topologii.
 
-```{r ryc24, echo=FALSE, fig.cap="Anamorfoza projekcji podczas wyborów prezydenckich w USA. Wielkość każdego stanu jest zgodna z liczbą głosów. Źródło: https://www.reddit.com/r/dataisbeautiful/comments/jomi6h/us_presidential_election_projection_cartogram/", out.width=400}
+```{r ryc24, echo=FALSE, fig.cap="Anamorfoza projekcji podczas wyborów prezydenckich w USA. Wielkość każdego stanu jest zgodna z liczbą głosów. Źródło: https://www.reddit.com/r/dataisbeautiful/comments/jomi6h/", out.width=400}
 knitr::include_graphics("figures/ryc24.png")
 ```
 
@@ -80,7 +82,7 @@ Jeżeli różnice między wartościami są niewielkie, tak też zmiany w rozmiar
 W niektórych przypadkach, np. nakładania się jednostek na siebie możliwe jest również przesunięciem centroidów jednostek.
 
 Ostatnim rodzajem anamorfoz, na której skupia się praca, są kartodiagramy anamorficzne Dorlinga. 
-Jest to dość powszechnie stosowana forma wizualizacji w kartografii brytyjskiej [@dorling1996]. 
+Jest to powszechnie stosowana forma wizualizacji w kartografii brytyjskiej [@dorling1996]. 
 Technika ta zastępuje rzeczywisty kształt jednostek na rzecz wyeksponowania wartości zjawiska za pomocą kół lub rzadziej heksagonów [@faliszewska2010]. 
 Domyślnie środki kół są zlokalizowane centralnie w obrębie jednostek terytorialnych, jednak w przypadku nachodzenia na siebie jednostek podstawowych zalecane jest odsunięcie kół od siebie. 
 

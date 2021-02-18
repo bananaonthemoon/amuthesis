@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.10)  17 FEB 2021 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.10)  18 FEB 2021 11:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -877,11 +877,7 @@ LaTeX Font Info:    Trying to load font information for T1+ppl on input line 40
 .
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-) (./imienazwisko.aux
-
-LaTeX Warning: Label `metody' multiply defined.
-
-)
+) (./imienazwisko.aux)
 \openout1 = `imienazwisko.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -1014,13 +1010,6 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                r
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
 )
 Package biblatex Info: Reference section=0 on input line 40.
 Package biblatex Info: Reference segment=0 on input line 40.
@@ -1058,7 +1047,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvs' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<figures/uam-logo.jpg, id=59, 1707.37875pt x 332.24126pt>
+<figures/uam-logo.jpg, id=91, 1707.37875pt x 332.24126pt>
 File: figures/uam-logo.jpg Graphic file (type jpg)
 <use figures/uam-logo.jpg>
 Package pdftex.def Info: figures/uam-logo.jpg  used on input line 44.
@@ -1136,78 +1125,54 @@ Rozdzia\PlPrIeC {\l } 2.
 
 ]
 Rozdzia\PlPrIeC {\l } 3.
+LaTeX Font Info:    Font shape `T1/fvs/m/it' will be
+(Font)              scaled to size 9.85492pt on input line 93.
 
-LaTeX Warning: Reference `tab:tabela31' on page 9 undefined on input line 95.
-
-
-Overfull \hbox (180.70773pt too wide) in paragraph at lines 97--108
-[][] 
+Overfull \hbox (5.18039pt too wide) in paragraph at lines 112--112
+ []|\T1/ppl/m/n/10.95 (-20) TERYT| 
  []
 
 
-LaTeX Warning: Reference `tab:tabela32' on page 9 undefined on input line 110.
+Overfull \hbox (3.74022pt too wide) in paragraph at lines 112--112
+ []|\T1/ppl/m/n/10.95 (-20) 100000| 
+ []
 
 [9]
-Overfull \hbox (217.4502pt too wide) in paragraph at lines 112--123
-[][] 
+Overfull \hbox (5.18039pt too wide) in paragraph at lines 133--133
+ []|\T1/ppl/m/n/10.95 (-20) TERYT| 
  []
 
-
-Overfull \hbox (217.4502pt too wide) in paragraph at lines 129--140
-[][] 
- []
-
-[10]
-LaTeX Font Info:    Font shape `T1/fvs/m/it' will be
-(Font)              scaled to size 9.85492pt on input line 174.
-[11]pdfTeX warning (ext4): destination with the same identifier (name{metody}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.186 \chapter{Metody}\label{metody}}
-                                      [12]
+[10] [11] [12]
 Rozdzia\PlPrIeC {\l } 4.
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 19
-2.
-(c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bera/t1fvm.fd
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 192.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `fvm' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 [13
 
 ] [14
 
 ]
 Rozdzia\PlPrIeC {\l } 5.
-
-LaTeX Warning: Reference `materialy' on page 15 undefined on input line 207.
-
-LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
-(Font)              scaled to size 9.85492pt on input line 215.
-LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <10.95> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 219.
-LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 9.85492pt on input line 219.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 223.
 [15] [16
 
 ]
 Rozdzia\PlPrIeC {\l } 6.
 [17] [18
 
-] [19] (./imienazwisko.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
+]
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 25
+1.
+(c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 251.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fvm' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+[19] (./imienazwisko.aux)
 Package rerunfilecheck Info: File `imienazwisko.out' has not changed.
-(rerunfilecheck)             Checksum: 4122CB8AEB8CBF284C96E6E1DDF9DC05;1844.
+(rerunfilecheck)             Checksum: ECD10ABAE53429B8E1896CE794439242;3324.
 Package logreq Info: Writing requests to 'imienazwisko.run.xml'.
 \openout1 = `imienazwisko.run.xml'.
 
@@ -1217,29 +1182,26 @@ Package logreq Info: Writing requests to 'imienazwisko.run.xml'.
 ### semi simple group (level 1) entered at line 114 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 22000 strings out of 481253
- 373579 string characters out of 5914581
- 1142890 words of memory out of 5000000
- 38246 multiletter control sequences out of 15000+600000
- 492518 words of font info for 244 fonts, out of 8000000 for 9000
+ 22103 strings out of 481253
+ 374942 string characters out of 5914581
+ 1147980 words of memory out of 5000000
+ 38287 multiletter control sequences out of 15000+600000
+ 497205 words of font info for 260 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 86i,11n,89p,1137b,17873s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,12n,89p,1137b,17871s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dv
 ips/base/8r.enc}<c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
-public/bera/fvmb8a.pfb><c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/fonts
-/type1/public/bera/fvmr8a.pfb><c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dis
-t/fonts/type1/public/bera/fvmro8a.pfb><c:/Users/Maria/AppData/Roaming/TinyTeX/t
-exmf-dist/fonts/type1/public/bera/fvsb8a.pfb><c:/Users/Maria/AppData/Roaming/Ti
-nyTeX/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb><c:/Users/Maria/AppData/Roa
-ming/TinyTeX/texmf-dist/fonts/type1/public/bera/fvsro8a.pfb><c:/Users/Maria/App
-Data/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/Users/M
-aria/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:
-/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8
-a.pfb>
-Output written on imienazwisko.pdf (19 pages, 188699 bytes).
+public/bera/fvmr8a.pfb><c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/fonts
+/type1/public/bera/fvsb8a.pfb><c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dis
+t/fonts/type1/public/bera/fvsr8a.pfb><c:/Users/Maria/AppData/Roaming/TinyTeX/te
+xmf-dist/fonts/type1/public/bera/fvsro8a.pfb><c:/Users/Maria/AppData/Roaming/Ti
+nyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/Users/Maria/AppData/Ro
+aming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/Maria/Ap
+pData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on imienazwisko.pdf (19 pages, 183359 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 204 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 80502 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 312 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 83638 words of extra memory for PDF output out of 89155 (max. 10000000)
 
