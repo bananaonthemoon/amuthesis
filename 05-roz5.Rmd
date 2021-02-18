@@ -58,6 +58,7 @@ knitr::include_graphics("figures/ryc54.png")
 ```{r ryc55, echo=FALSE, fig.cap="Kartogram właściwy oraz kartogram geometryczny - wzrost frekwencji w II turze. Źródło: opracowanie własne na podstawie danych PKW", out.width=400}
 knitr::include_graphics("figures/ryc55.png")
 ```
+**Poprawna odpowiedź: 21,6%**
 
 Trzecie pytanie dotyczyło wzrostu frekwencji II turze (Ryc. \@ref(fig:ryc55)).
 W grupie pierwszej ankietowani najczęściej uważali, że wzrost frekwencji dotyczył więcej niż 20% powiatów w Polsce (15 os.). 
@@ -86,7 +87,7 @@ W pierwszej grupie do wizualizacji został użyty kartogram geometryczny (heksag
 Było to jedno z najtrudniejszych pytań dla ankietowanych, bowiem tylko 20,6% (siedem osób) w pierwszej grupie udało się na nie odpowiedzieć prawidłowo.
 Najwięcej osób wybierało województwo mazowieckie oraz wielkopolskie jako te, które mają najwyższą frekwencję. 
 W grupie drugiej nikomu nie udało się poprawnie odpowiedzieć na to pytanie - tylko siedem osób wybrało województwo małopolskie, a dziesięć osób województwo pomorskie (Ryc. \@ref(fig:ryc58)). 
-Najczęstszą odpowiedzią drugiej grupy było “woj. mazowieckie, woj. pomorskie, woj. wielkopolskie”. 
+Najczęstszą odpowiedzią drugiej grupy było *woj. mazowieckie, woj. pomorskie, woj. wielkopolskie*. 
 W pierwszej grupie poza prawidłową odpowiedzią, popularna była również odpowiedź *woj. mazowieckie, woj. pomorskie, woj. śląskie* (sześć osób) oraz *woj. małopolskie, woj. mazowieckie, woj. zachodniopomorskie* (pięć osób).
 
 ```{r ryc58, echo=FALSE, fig.cap="Wykres z wynikami do pytania czwatego (obie grupy). Źródło: opracowanie własne na podstawie danych PKW", out.width=300}

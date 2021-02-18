@@ -40,11 +40,11 @@ kableExtra::column_spec(5, width = "3cm", latex_valign = 'm')
 ```
 
 Dane z granicami administracyjnymi uzyskano ze strony GIS Support [@gissupport]. 
-Oryginalne dane pochodzą z Głównego Urzędu Geodezji i Kartografii, jednak nie jest stamtąd możliwe pobranie danych z podziałem na wybrane jednostki administracyjne (tj. powiatów, województw). 
+Oryginalne dane pochodzą z Głównego Urzędu Geodezji i Kartografii, jednak nie jest możliwe pobranie stamtąd danych z podziałem na wybrane jednostki administracyjne (tj. powiaty, województwa). 
 Wynikiem pobierania są skompresowane foldery z plikami w formacie ESRI Shapefile. 
 Każdy plik .shp posiada kolumny *'JPT_SJR_KO'*, *'JPT_KOD_JE'* oraz *'JPT_NAZWA_'*. Kolumna *'JPT_KOD_JE'* jest niezbędna do przeprowadzenia pomyślnego łączenia danych geograficznych z danymi wyborczymi.
 
-Czyszczenie danych zostały przeprowadzone w języku R[@R-base], konieczne jednak były poprawki geometrii na poziomie powiatowym – naprawiono je w programie QGIS. 
+Czyszczenie danych zostały przeprowadzone w języku R [@R-base], konieczne jednak były poprawki geometrii na poziomie powiatowym – naprawiono je w programie QGIS. 
 Poniższy proces przebiegał praktycznie tak samo w każdym z arkuszy, pojedyncze dodatkowe kroki zostały przeprowadzone przy danych na poziomie gmin, gdzie niezbędne było wyszczególnienie jednostek wyłącznie z województwa wielkopolskiego. 
 Pierwszym etapem czyszczenia było usunięcie zbędnych informacji w obu turach, m.in. typ jednostki, % głosów nieważnych oraz powody, przez które stały się nieważne. 
 Poprawiono również kody TERYT tak, aby była odpowiedniej długości dla każdej jednostki. 
@@ -55,7 +55,7 @@ Uproszczono geometrię tak, aby zmniejszyć rozmiar pliku i ułatwić jego póź
 Dane dla gmin zostały ograniczone do województwa wielkopolskiego.
 
 Poprzez kolumny *TERYT* złączono dane tekstowe z danymi geograficznymi do jednego pliku. 
-Dodatkowo obliczono m.in. wyniki procentowe obu kandydatów oraz frekwencji, liczbową różnicę między kandydatami w II turze oraz różnicę frekwencji (Tab. \ref(tab:tabela33)). 
+Dodatkowo obliczono m.in. wyniki procentowe obu kandydatów oraz frekwencji, liczbową różnicę między kandydatami w II turze oraz różnicę frekwencji (Tab.\@ref(tab:tabela33)). 
 Złączony plik zapisano w formacie GeoPackage (rozszerzenie *.gpkg*).
 
 ```{r tabela33, echo=FALSE, fig.cap="Fragment wyczyszczonych danych geograficznych oraz danych wyborczych z II tury Źródło: wybory.gov.pl"}
@@ -76,13 +76,13 @@ kableExtra::column_spec(5, width = "2cm", latex_valign = 'm')
 ```
 
 Przedziały klas w mapach zostały ustawione ręcznie. 
-Kierowano się tym, aby każdy z przedziałów miał podobną liczbę obiektów, środkowa klasa mieściła w sobie wartość średnią, a skrajne przedziały zawierające wartości wychodzące poza jedno odchylenie standardowe. 
+Kierowano się tym, aby każdy z przedziałów miał podobną liczbę obiektów, środkowa klasa mieściła w sobie wartość średnią, a skrajne przedziały zawierały wartości wychodzące poza jedno odchylenie standardowe. 
 
 ## Biblioteki języka R {#biblioteki}
 
 Głównym narzędziem stosowanym w pracy inżynierskiej był język *R*. 
-Łącznie użytych zostało XYZ pakietów, z czego najważniejszymi pakietami wykorzystanymi w pracy były pakiety cartogram oraz geogrid, które umożliwiały transformacje danych przestrzennych (Tab. \ref(tab:tabela34)). 
-Innymi pakietami użytymi były m.in.: dplyr[@r-dplyr], sf[@r-sf], tmap[@r-tmap] oraz tmaptools[@r-tmaptools].
+Łącznie użytych zostało 9 pakietów, z czego najważniejszymi były pakiety *cartogram* oraz *geogrid*, które umożliwiały wizualizację danych przestrzennych (Tab. \ref(tab:tabela34)). 
+Innymi ważnymi pakietami użytymi w pracy były m.in.: dplyr [@r-dplyr], sf [@r-sf], tmap [@r-tmap] oraz tmaptools [@r-tmaptools].
 
 ```{r tabela34, echo=FALSE, fig.cap="Fragment wyczyszczonych danych geograficznych oraz danych wyborczych z II tury Źródło: wybory.gov.pl"}
 library(knitr)
@@ -101,7 +101,7 @@ Pakiet *cartogram* składa się z trzech funkcji: *cartogram_cont(), cartogram_n
 *Cartogram_ncont()* tworzy kartogram anamorficzny nieciągły, którego algorytm jest oparty o pracę J. Olson [@olson1976]. 
 Przy pomocy argumentu *k* możliwe jest określenie współczynnika ekspansji dla jednostek o większej wartości.
 *Cartogram_dorling()* tworzy kartodiagram anamorficzny, opracowany pierwotnie przez D. Dorlinga [@dorling1996]. 
-Wizualizacje z tego pakietu tworzone były w połączeniu z pakietem tmap. 
-Manipulując argumentem *k* mamy wpływ na udział obwiedni jednostki wypełnionej większym okręgiem, a argumentem *m_weight*- wagę ruchomości kół, tj. ustalając w argumencie m_weight wartość 0 uniemożliwiamy ruch jednostkek z przypisanego miejsca. Wartość 1 jest domyślną odległością ruchomości jednostki od przypisanego miejsca obliczoną przez algorytm.
+Wizualizacje z tego pakietu tworzone były w połączeniu z pakietem *tmap.* 
+Manipulując argumentem *k* mamy wpływ na udział obwiedni jednostki wypełnionej większym okręgiem, a argumentem *m_weight* - wagę ruchomości kół, tj. ustalając w argumencie *m_weight* wartość 0 uniemożliwiamy ruch jednostkek z przypisanego miejsca. Wartość 1 jest domyślną odległością ruchomości jednostki od przypisanego miejsca obliczoną przez algorytm.
 
 W pakiecie *geogrid* przy pomocy funkcji *calculate_grid()* nadawany jest kształt pola odniesienia (tj. heksagon, kwadrat). Następnie generowane są siatki pól (gridy), które oparte są o analizy granic oryginalnych jednostek odniesienia. Kolejnym etapem jest przypisanie gridu do oryginalnych granic za pomocą funkcji *Assign_polygons()*. Ostatnim krokiem jest zwizualizowanie danych przy pomocy pakietu tmap.

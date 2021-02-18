@@ -9,4 +9,3 @@ bookdown::pdf_book:
     "--top-level-division=chapter"
   ]
   citation_package: biblatex
-  extra_dependencies: ["float"]

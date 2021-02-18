@@ -4,7 +4,7 @@ Wybory są jednym z podstawowych narzędzi współczesnych demokracji.
 Demokracja pośrednia, znana również jako przedstawicielska, jest dominującą formą demokracji na świecie, funkcjonuje ona również w Polsce.
 Encyklopedia PWN (2020) definiuje wybory jako \textit{„sposób powoływania obywateli do pełnienia funkcji publicznych w organach państwowych, a także w organach samorządowych, partii politycznych i in. organizacji społecznych, przez głosowanie na wysuniętych kandydatów lub ich listy.”}
 
-```{r ryc11, echo=FALSE, fig.cap="Mapa wyborów prezydenckich w Stanach Zjednoczonych w 1880 roku. Źródło: http://www.mappingthenation.com/blog/the-nations-first-electoral-map/", out.width=400, fig.pos='!H', out.extra = ""}
+```{r ryc11, echo=FALSE, fig.cap="Mapa wyborów prezydenckich w Stanach Zjednoczonych w 1880 roku. Źródło: http://www.mappingthenation.com/blog/the-nations-first-electoral-map/", out.width=400}
 knitr::include_graphics("figures/ryc11.jpg")
 ```
 

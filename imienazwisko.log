@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.10)  18 FEB 2021 13:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.10)  18 FEB 2021 13:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -214,13 +214,6 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen163
 \Gin@req@width=\dimen164
-) (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count269
-\float@exts=\toks24
-\float@box=\box49
-\@float@everytoks=\toks25
-\@floatcapt=\box50
 )
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/placeins/placeins.
 sty
@@ -229,12 +222,12 @@ Package: placeins 2005/04/18  v 2.2
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titlesec/titlesec.
 sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box51
+\ttl@box=\box49
 \beforetitleunit=\skip61
 \aftertitleunit=\skip62
 \ttl@plus=\dimen165
 \ttl@minus=\dimen166
-\ttl@toksa=\toks26
+\ttl@toksa=\toks24
 \titlewidth=\dimen167
 \titlewidthlast=\dimen168
 \titlewidthfirst=\dimen169
@@ -246,12 +239,12 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtyp
 e.sty
 Package: microtype 2020/12/07 v2.8 Micro-typographical refinements (RS)
-\MT@toks=\toks27
-\MT@count=\count270
+\MT@toks=\toks25
+\MT@count=\count269
 LaTeX Info: Redefining \textls on input line 788.
 \MT@outer@kern=\dimen170
 LaTeX Info: Redefining \textmicrotypecontext on input line 1358.
-\MT@listname@count=\count271
+\MT@listname@count=\count270
 
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtyp
 e-pdftex.def
@@ -315,7 +308,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.
 sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count272
+\etb@tempcnta=\count271
 )
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoption
 s.sty
@@ -327,7 +320,7 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )) (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.s
 ty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count273
+\lrq@indent=\count272
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
@@ -336,48 +329,48 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count274
-\c@listtotal=\count275
-\c@listcount=\count276
-\c@liststart=\count277
-\c@liststop=\count278
-\c@citecount=\count279
-\c@citetotal=\count280
-\c@multicitecount=\count281
-\c@multicitetotal=\count282
-\c@instcount=\count283
-\c@maxnames=\count284
-\c@minnames=\count285
-\c@maxitems=\count286
-\c@minitems=\count287
-\c@citecounter=\count288
-\c@maxcitecounter=\count289
-\c@savedcitecounter=\count290
-\c@uniquelist=\count291
-\c@uniquename=\count292
-\c@refsection=\count293
-\c@refsegment=\count294
-\c@maxextratitle=\count295
-\c@maxextratitleyear=\count296
-\c@maxextraname=\count297
-\c@maxextradate=\count298
-\c@maxextraalpha=\count299
-\c@abbrvpenalty=\count300
-\c@highnamepenalty=\count301
-\c@lownamepenalty=\count302
-\c@maxparens=\count303
-\c@parenlevel=\count304
-\blx@tempcnta=\count305
-\blx@tempcntb=\count306
-\blx@tempcntc=\count307
-\blx@maxsection=\count308
-\blx@maxsegment@0=\count309
-\blx@notetype=\count310
-\blx@parenlevel@text=\count311
-\blx@parenlevel@foot=\count312
-\blx@sectionciteorder@0=\count313
-\blx@entrysetcounter=\count314
-\blx@biblioinstance=\count315
+\c@tabx@nest=\count273
+\c@listtotal=\count274
+\c@listcount=\count275
+\c@liststart=\count276
+\c@liststop=\count277
+\c@citecount=\count278
+\c@citetotal=\count279
+\c@multicitecount=\count280
+\c@multicitetotal=\count281
+\c@instcount=\count282
+\c@maxnames=\count283
+\c@minnames=\count284
+\c@maxitems=\count285
+\c@minitems=\count286
+\c@citecounter=\count287
+\c@maxcitecounter=\count288
+\c@savedcitecounter=\count289
+\c@uniquelist=\count290
+\c@uniquename=\count291
+\c@refsection=\count292
+\c@refsegment=\count293
+\c@maxextratitle=\count294
+\c@maxextratitleyear=\count295
+\c@maxextraname=\count296
+\c@maxextradate=\count297
+\c@maxextraalpha=\count298
+\c@abbrvpenalty=\count299
+\c@highnamepenalty=\count300
+\c@lownamepenalty=\count301
+\c@maxparens=\count302
+\c@parenlevel=\count303
+\blx@tempcnta=\count304
+\blx@tempcntb=\count305
+\blx@tempcntc=\count306
+\blx@maxsection=\count307
+\blx@maxsegment@0=\count308
+\blx@notetype=\count309
+\blx@parenlevel@text=\count310
+\blx@parenlevel@foot=\count311
+\blx@sectionciteorder@0=\count312
+\blx@entrysetcounter=\count313
+\blx@biblioinstance=\count314
 \labelnumberwidth=\skip78
 \labelalphawidth=\skip79
 \biblabelsep=\skip80
@@ -389,9 +382,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language4
-\c@mincomprange=\count316
-\c@maxcomprange=\count317
-\c@mincompwidth=\count318
+\c@mincomprange=\count315
+\c@maxcomprange=\count316
+\c@mincompwidth=\count317
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -403,74 +396,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count319
-\c@savedafterword=\count320
-\c@annotator=\count321
-\c@savedannotator=\count322
-\c@author=\count323
-\c@savedauthor=\count324
-\c@bookauthor=\count325
-\c@savedbookauthor=\count326
-\c@commentator=\count327
-\c@savedcommentator=\count328
-\c@editor=\count329
-\c@savededitor=\count330
-\c@editora=\count331
-\c@savededitora=\count332
-\c@editorb=\count333
-\c@savededitorb=\count334
-\c@editorc=\count335
-\c@savededitorc=\count336
-\c@foreword=\count337
-\c@savedforeword=\count338
-\c@holder=\count339
-\c@savedholder=\count340
-\c@introduction=\count341
-\c@savedintroduction=\count342
-\c@namea=\count343
-\c@savednamea=\count344
-\c@nameb=\count345
-\c@savednameb=\count346
-\c@namec=\count347
-\c@savednamec=\count348
-\c@translator=\count349
-\c@savedtranslator=\count350
-\c@shortauthor=\count351
-\c@savedshortauthor=\count352
-\c@shorteditor=\count353
-\c@savedshorteditor=\count354
-\c@labelname=\count355
-\c@savedlabelname=\count356
-\c@institution=\count357
-\c@savedinstitution=\count358
-\c@lista=\count359
-\c@savedlista=\count360
-\c@listb=\count361
-\c@savedlistb=\count362
-\c@listc=\count363
-\c@savedlistc=\count364
-\c@listd=\count365
-\c@savedlistd=\count366
-\c@liste=\count367
-\c@savedliste=\count368
-\c@listf=\count369
-\c@savedlistf=\count370
-\c@location=\count371
-\c@savedlocation=\count372
-\c@organization=\count373
-\c@savedorganization=\count374
-\c@origlocation=\count375
-\c@savedoriglocation=\count376
-\c@origpublisher=\count377
-\c@savedorigpublisher=\count378
-\c@publisher=\count379
-\c@savedpublisher=\count380
-\c@language=\count381
-\c@savedlanguage=\count382
-\c@origlanguage=\count383
-\c@savedoriglanguage=\count384
-\c@pageref=\count385
-\c@savedpageref=\count386
+\c@afterword=\count318
+\c@savedafterword=\count319
+\c@annotator=\count320
+\c@savedannotator=\count321
+\c@author=\count322
+\c@savedauthor=\count323
+\c@bookauthor=\count324
+\c@savedbookauthor=\count325
+\c@commentator=\count326
+\c@savedcommentator=\count327
+\c@editor=\count328
+\c@savededitor=\count329
+\c@editora=\count330
+\c@savededitora=\count331
+\c@editorb=\count332
+\c@savededitorb=\count333
+\c@editorc=\count334
+\c@savededitorc=\count335
+\c@foreword=\count336
+\c@savedforeword=\count337
+\c@holder=\count338
+\c@savedholder=\count339
+\c@introduction=\count340
+\c@savedintroduction=\count341
+\c@namea=\count342
+\c@savednamea=\count343
+\c@nameb=\count344
+\c@savednameb=\count345
+\c@namec=\count346
+\c@savednamec=\count347
+\c@translator=\count348
+\c@savedtranslator=\count349
+\c@shortauthor=\count350
+\c@savedshortauthor=\count351
+\c@shorteditor=\count352
+\c@savedshorteditor=\count353
+\c@labelname=\count354
+\c@savedlabelname=\count355
+\c@institution=\count356
+\c@savedinstitution=\count357
+\c@lista=\count358
+\c@savedlista=\count359
+\c@listb=\count360
+\c@savedlistb=\count361
+\c@listc=\count362
+\c@savedlistc=\count363
+\c@listd=\count364
+\c@savedlistd=\count365
+\c@liste=\count366
+\c@savedliste=\count367
+\c@listf=\count368
+\c@savedlistf=\count369
+\c@location=\count370
+\c@savedlocation=\count371
+\c@organization=\count372
+\c@savedorganization=\count373
+\c@origlocation=\count374
+\c@savedoriglocation=\count375
+\c@origpublisher=\count376
+\c@savedorigpublisher=\count377
+\c@publisher=\count378
+\c@savedpublisher=\count379
+\c@language=\count380
+\c@savedlanguage=\count381
+\c@origlanguage=\count382
+\c@savedoriglanguage=\count383
+\c@pageref=\count384
+\c@savedpageref=\count385
 \shorthandwidth=\skip86
 \shortjournalwidth=\skip87
 \shortserieswidth=\skip88
@@ -498,19 +491,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.
 def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count387
-\c@textcitetotal=\count388
-\c@textcitemaxnames=\count389
-\c@biburlbigbreakpenalty=\count390
-\c@biburlbreakpenalty=\count391
-\c@biburlnumpenalty=\count392
-\c@biburlucpenalty=\count393
-\c@biburllcpenalty=\count394
+\c@textcitecount=\count386
+\c@textcitetotal=\count387
+\c@textcitemaxnames=\count388
+\c@biburlbigbreakpenalty=\count389
+\c@biburlbreakpenalty=\count390
+\c@biburlnumpenalty=\count391
+\c@biburlucpenalty=\count392
+\c@biburllcpenalty=\count393
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count395
+\c@smartand=\count394
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -539,8 +532,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/stand
 ard.bbx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count396
-\c@bbx:relatedtotal=\count397
+\c@bbx:relatedcount=\count395
+\c@bbx:relatedtotal=\count396
 )))
 Package biblatex Info: Trying to load citation style 'authoryear-comp'...
 Package biblatex Info: ... file 'authoryear-comp.cbx' found.
@@ -575,8 +568,8 @@ Package: expl3 2021-02-06 L3 programming layer (loader)
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-pdftex.def
 File: l3backend-pdftex.def 2021-02-06 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count398
-\l__pdf_internal_box=\box52
+\l__color_backend_stack_int=\count397
+\l__pdf_internal_box=\box50
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 
@@ -629,8 +622,8 @@ y
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen171
-\Hy@linkcounter=\count399
-\Hy@pagecounter=\count400
+\Hy@linkcounter=\count398
+\Hy@pagecounter=\count399
 
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.de
 f
@@ -651,7 +644,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 s.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count401
+\Hy@SavedSpaceFactor=\count400
 
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-10 v7.00j Hyperref: PDF Unicode definition (HO)
@@ -666,7 +659,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count402
+\c@Hy@tempcnt=\count401
 LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen172
 
@@ -679,7 +672,7 @@ tcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count403
+\Fld@menulength=\count402
 \Field@Width=\dimen173
 \Fld@charsize=\dimen174
 Package hyperref Info: Hyper figures OFF on input line 6075.
@@ -698,9 +691,9 @@ Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count404
-\c@Item=\count405
-\c@Hfootnote=\count406
+\Hy@abspage=\count403
+\c@Item=\count404
+\c@Hfootnote=\count405
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -714,8 +707,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count407
-\c@bookmark@seq@number=\count408
+\Fld@listcount=\count406
+\c@bookmark@seq@number=\count407
 
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rer
 unfilecheck.sty
@@ -730,11 +723,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip100
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 172.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 172.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 172.
+Package hyperref Info: Option `breaklinks' set `true' on input line 171.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 171.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 171.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 172.
+Package hyperref Info: Option `colorlinks' set `true' on input line 171.
 
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tocbibind/tocbibin
 d.sty
@@ -777,8 +770,8 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforefigskip=\skip127
 \cftfigindent=\skip128
 \cftfignumwidth=\skip129
-\c@lofdepth=\count409
-\c@lotdepth=\count410
+\c@lofdepth=\count408
+\c@lotdepth=\count409
 \cftbeforelottitleskip=\skip130
 \cftafterlottitleskip=\skip131
 \cftbeforetabskip=\skip132
@@ -796,11 +789,11 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.
 sty
 Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count411
+\FV@CodeLineNo=\count410
 \FV@InFile=\read3
-\FV@TabBox=\box53
-\c@FancyVerbLine=\count412
-\FV@StepNumber=\count413
+\FV@TabBox=\box51
+\c@FancyVerbLine=\count411
+\FV@StepNumber=\count412
 \FV@OutFile=\write4
 )
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.st
@@ -810,17 +803,17 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTright=\skip137
 \LTpre=\skip138
 \LTpost=\skip139
-\LTchunksize=\count414
+\LTchunksize=\count413
 \LTcapwidth=\dimen179
-\LT@head=\box54
-\LT@firsthead=\box55
-\LT@foot=\box56
-\LT@lastfoot=\box57
-\LT@cols=\count415
-\LT@rows=\count416
-\c@LT@tables=\count417
-\c@LT@chunks=\count418
-\LT@p@ftn=\toks28
+\LT@head=\box52
+\LT@firsthead=\box53
+\LT@foot=\box54
+\LT@lastfoot=\box55
+\LT@cols=\count414
+\LT@rows=\count415
+\c@LT@tables=\count416
+\c@LT@chunks=\count417
+\LT@p@ftn=\toks26
 )
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.
 sty
@@ -835,13 +828,20 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen187
 \cmidrulekern=\dimen188
 \defaultaddspace=\dimen189
-\@cmidla=\count419
-\@cmidlb=\count420
+\@cmidla=\count418
+\@cmidlb=\count419
 \@aboverulesep=\dimen190
 \@belowrulesep=\dimen191
-\@thisruleclass=\count421
-\@lastruleclass=\count422
+\@thisruleclass=\count420
+\@lastruleclass=\count421
 \@thisrulewidth=\dimen192
+) (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count422
+\float@exts=\toks27
+\float@box=\box56
+\@float@everytoks=\toks28
+\@floatcapt=\box57
 )) (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/polski/polski.s
 ty
 Package: polski 2017/05/04 v1.3.4 Polish language package
@@ -877,8 +877,7 @@ LaTeX Font Info:    Trying to load font information for T1+ppl on input line 40
 .
 (c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-)
-No file imienazwisko.aux.
+) (./imienazwisko.aux)
 \openout1 = `imienazwisko.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -995,8 +994,8 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 \openout3 = `imienazwisko.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'imienazwisko.bbl' not found.
-No file imienazwisko.bbl.
+Package biblatex Info: ... file 'imienazwisko.bbl' found.
+(./imienazwisko.bbl)
 Package biblatex Info: Reference section=0 on input line 40.
 Package biblatex Info: Reference segment=0 on input line 40.
 Package hyperref Info: Link coloring ON on input line 40.
@@ -1018,6 +1017,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
+(./imienazwisko.out) (./imienazwisko.out)
 \@outlinefile=\write5
 \openout5 = `imienazwisko.out'.
 
@@ -1032,7 +1032,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvs' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<figures/uam-logo.jpg, id=4, 1707.37875pt x 332.24126pt>
+<figures/uam-logo.jpg, id=91, 1707.37875pt x 332.24126pt>
 File: figures/uam-logo.jpg Graphic file (type jpg)
 <use figures/uam-logo.jpg>
 Package pdftex.def Info: figures/uam-logo.jpg  used on input line 44.
@@ -1051,42 +1051,474 @@ LaTeX Font Info:    Font shape `T1/fvs/m/it' will be
 
 {c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
 x.map} <./figures/uam-logo.jpg>] [2]
-LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 13.49991pt on input line 47.
 LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 63.
+(Font)              scaled to size 12.9599pt on input line 76.
 [3]
-LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 21.59985pt on input line 65.
 LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 21.59985pt on input line 65.
+(Font)              scaled to size 13.49991pt on input line 79.
+[4]
+LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
+(Font)              scaled to size 21.59985pt on input line 97.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 21.59985pt on input line 97.
+(./imienazwisko.toc
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 3
+.
+(c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
+3.
+(c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
+3.
+(c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
+3.
+(c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
+3.
+(c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `zplm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
 \tf@toc=\write6
 \openout6 = `imienazwisko.toc'.
 
-[4]
+[5] [6
+
+]
 Rozdzia\PlPrIeC {\l } 1.
 LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 18.66588pt on input line 68.
+(Font)              scaled to size 18.66588pt on input line 100.
 LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 68.
+(Font)              scaled to size 22.39185pt on input line 100.
 LaTeX Font Info:    Font shape `T1/fvs/m/it' will be
-(Font)              scaled to size 9.85492pt on input line 72.
+(Font)              scaled to size 9.85492pt on input line 104.
+<figures/ryc11.jpg, id=146, 2139.995pt x 1480.53125pt>
+File: figures/ryc11.jpg Graphic file (type jpg)
+<use figures/ryc11.jpg>
+Package pdftex.def Info: figures/ryc11.jpg  used on input line 108.
+(pdftex.def)             Requested size: 401.50146pt x 277.75706pt.
 
-! LaTeX Error: Unknown float option `H'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.74 \begin{figure}[!H]
-                        
+[7]
+<figures/ryc12.png, id=164, 1003.75pt x 599.23875pt>
+File: figures/ryc12.png Graphic file (type png)
+<use figures/ryc12.png>
+Package pdftex.def Info: figures/ryc12.png  used on input line 131.
+(pdftex.def)             Requested size: 301.1261pt x 179.77301pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/ryc13.png, id=165, 425.1885pt x 566.115pt>
+File: figures/ryc13.png Graphic file (type png)
+<use figures/ryc13.png>
+Package pdftex.def Info: figures/ryc13.png  used on input line 140.
+(pdftex.def)             Requested size: 200.75073pt x 267.29207pt.
+
+Underfull \hbox (badness 1152) in paragraph at lines 144--144
+[][]|\T1/ppl/m/it/10.95 (+20) Ma-pa wy-bo-rów par-la-men-tar-nych w Wiel-kiej B
+ry-ta-nii w 1895 ro-ku. ™ró-dªo:
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8 <./figures/ryc11.jpg>] [9 <./figures/ryc12.png> <./figures/ryc13.png>]
+<figures/ryc14.png, id=184, 4445.60875pt x 1628.0825pt>
+File: figures/ryc14.png Graphic file (type png)
+<use figures/ryc14.png>
+Package pdftex.def Info: figures/ryc14.png  used on input line 165.
+(pdftex.def)             Requested size: 401.50146pt x 147.01794pt.
+<figures/ryc15.png, id=186, 3730.93875pt x 1345.27594pt>
+File: figures/ryc15.png Graphic file (type png)
+<use figures/ryc15.png>
+Package pdftex.def Info: figures/ryc15.png  used on input line 174.
+(pdftex.def)             Requested size: 401.50146pt x 144.75803pt.
+[10 <./figures/ryc14.png> <./figures/ryc15.png>] [11] [12
+
+]
+Rozdzia\PlPrIeC {\l } 2.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 2
+14.
+(c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+) [13]
+<figures/ryc21.png, id=220, 1284.8pt x 815.045pt>
+File: figures/ryc21.png Graphic file (type png)
+<use figures/ryc21.png>
+Package pdftex.def Info: figures/ryc21.png  used on input line 230.
+(pdftex.def)             Requested size: 401.50146pt x 254.70093pt.
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 23
+4.
+(c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <10.95> not available
+(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 234.
+LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
+(Font)              scaled to size 9.85492pt on input line 234.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fvm' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
+\T1/ppl/m/it/10.95 (+20) dªo: [][]$\T1/fvm/m/sl/10.95 https : / / commons . wik
+imedia . org / wiki / File : United _ States _
+ []
+
+[14 <./figures/ryc21.png>]
+<figures/ryc22.png, id=234, 1024.82875pt x 232.87pt>
+File: figures/ryc22.png Graphic file (type png)
+<use figures/ryc22.png>
+Package pdftex.def Info: figures/ryc22.png  used on input line 257.
+(pdftex.def)             Requested size: 401.50146pt x 91.23111pt.
+[15 <./figures/ryc22.png (PNG copy)>]
+<figures/ryc23.png, id=246, 699.8145pt x 486.618pt>
+File: figures/ryc23.png Graphic file (type png)
+<use figures/ryc23.png>
+Package pdftex.def Info: figures/ryc23.png  used on input line 274.
+(pdftex.def)             Requested size: 401.50146pt x 279.17946pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/ryc24.png, id=254, 963.6pt x 640.3925pt>
+File: figures/ryc24.png Graphic file (type png)
+<use figures/ryc24.png>
+Package pdftex.def Info: figures/ryc24.png  used on input line 290.
+(pdftex.def)             Requested size: 401.50146pt x 266.82303pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+[][]|\T1/ppl/m/it/10.95 (+20) Ana-mor-fo-za pro-jek-cji pod-czas wy-bo-rów pre-
+zy-denc-kich w USA.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+\T1/ppl/m/it/10.95 (+20) Wiel-ko±¢ ka»-de-go sta-nu jest zgod-na z licz-b¡ gªo-
+sów. ™ró-dªo:
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16] [17 <./figures/ryc23.png>] [18 <./figures/ryc24.png>]
+Rozdzia\PlPrIeC {\l } 3.
+
+Overfull \hbox (5.18039pt too wide) in paragraph at lines 341--341
+ []|\T1/ppl/m/n/10.95 (-20) TERYT| 
+ []
+
+
+Overfull \hbox (3.74022pt too wide) in paragraph at lines 341--341
+ []|\T1/ppl/m/n/10.95 (-20) 100000| 
+ []
+
+[19
+
+]
+Overfull \hbox (5.18039pt too wide) in paragraph at lines 362--362
+ []|\T1/ppl/m/n/10.95 (-20) TERYT| 
+ []
+
+[20]
+
+LaTeX Warning: Reference `(' on page 21 undefined on input line 381.
+
+
+Overfull \hbox (3.30722pt too wide) in paragraph at lines 399--399
+ []|\T1/ppl/m/n/10.95 (-20) t2_roznica_glosow| 
+ []
+
+
+Overfull \hbox (1.94562pt too wide) in paragraph at lines 399--399
+ []|\T1/ppl/m/n/10.95 (-20) roznica_frek| 
+ []
+
+
+LaTeX Warning: Reference `(' on page 21 undefined on input line 409.
+
+[21] [22]
+Rozdzia\PlPrIeC {\l } 4.
+<figures/ryc41.png, id=332, 2057.6875pt x 1405.25pt>
+File: figures/ryc41.png Graphic file (type png)
+<use figures/ryc41.png>
+Package pdftex.def Info: figures/ryc41.png  used on input line 457.
+(pdftex.def)             Requested size: 301.1261pt x 205.63223pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/ryc42.png, id=333, 1806.75pt x 1606.0pt>
+File: figures/ryc42.png Graphic file (type png)
+<use figures/ryc42.png>
+Package pdftex.def Info: figures/ryc42.png  used on input line 466.
+(pdftex.def)             Requested size: 301.1261pt x 267.64967pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23
+
+] [24 <./figures/ryc41.png> <./figures/ryc42.png>]
+<figures/ryc43.png, id=350, 2057.6875pt x 1405.25pt>
+File: figures/ryc43.png Graphic file (type png)
+<use figures/ryc43.png>
+Package pdftex.def Info: figures/ryc43.png  used on input line 481.
+(pdftex.def)             Requested size: 301.1261pt x 205.63223pt.
+<figures/ryc44.png, id=354, 2005.4925pt x 1405.25pt>
+File: figures/ryc44.png Graphic file (type png)
+<use figures/ryc44.png>
+Package pdftex.def Info: figures/ryc44.png  used on input line 499.
+(pdftex.def)             Requested size: 301.1261pt x 210.99283pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/ryc45.png, id=355, 1806.75pt x 1606.0pt>
+File: figures/ryc45.png Graphic file (type png)
+<use figures/ryc45.png>
+Package pdftex.def Info: figures/ryc45.png  used on input line 508.
+(pdftex.def)             Requested size: 301.1261pt x 267.64967pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25
+
+ <./figures/ryc43.png>] [26 <./figures/ryc44.png> <./figures/ryc45.png>]
+<figures/ryc46.png, id=379, 1980.39874pt x 1405.25pt>
+File: figures/ryc46.png Graphic file (type png)
+<use figures/ryc46.png>
+Package pdftex.def Info: figures/ryc46.png  used on input line 526.
+(pdftex.def)             Requested size: 301.1261pt x 213.67313pt.
+<figures/ryc47.png, id=380, 1928.20375pt x 1509.64pt>
+File: figures/ryc47.png Graphic file (type png)
+<use figures/ryc47.png>
+Package pdftex.def Info: figures/ryc47.png  used on input line 535.
+(pdftex.def)             Requested size: 301.1261pt x 235.74246pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[27
+
+ <./figures/ryc46.png>]
+<figures/ryc48.png, id=393, 2006.49625pt x 1405.25pt>
+File: figures/ryc48.png Graphic file (type png)
+<use figures/ryc48.png>
+Package pdftex.def Info: figures/ryc48.png  used on input line 555.
+(pdftex.def)             Requested size: 301.1261pt x 210.88562pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/ryc49.png, id=394, 1707.37875pt x 1606.0pt>
+File: figures/ryc49.png Graphic file (type png)
+<use figures/ryc49.png>
+Package pdftex.def Info: figures/ryc49.png  used on input line 564.
+(pdftex.def)             Requested size: 301.1261pt x 283.23521pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28 <./figures/ryc47.png>] [29 <./figures/ryc48.png> <./figures/ryc49.png>]
+<figures/ryc410.png, id=413, 1934.22626pt x 1405.25pt>
+File: figures/ryc410.png Graphic file (type png)
+<use figures/ryc410.png>
+Package pdftex.def Info: figures/ryc410.png  used on input line 583.
+(pdftex.def)             Requested size: 301.1261pt x 218.75496pt.
+<figures/ryc411.png, id=414, 1815.78375pt x 1606.0pt>
+File: figures/ryc411.png Graphic file (type png)
+<use figures/ryc411.png>
+Package pdftex.def Info: figures/ryc411.png  used on input line 592.
+(pdftex.def)             Requested size: 301.1261pt x 266.32637pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/ryc412.png, id=415, 2870.725pt x 2810.5pt>
+File: figures/ryc412.png Graphic file (type png)
+<use figures/ryc412.png>
+Package pdftex.def Info: figures/ryc412.png  used on input line 601.
+(pdftex.def)             Requested size: 401.50146pt x 393.08136pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[30
+
+ <./figures/ryc410.png>] [31 <./figures/ryc411.png>] [32 <./figures/ryc412.png>
+]
+Rozdzia\PlPrIeC {\l } 5.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 626.
+<figures/ryc51.png, id=436, 3814.25pt x 1405.25pt>
+File: figures/ryc51.png Graphic file (type png)
+<use figures/ryc51.png>
+Package pdftex.def Info: figures/ryc51.png  used on input line 632.
+(pdftex.def)             Requested size: 401.50146pt x 147.9094pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33
+
+]
+<figures/ryc52.png, id=446, 2107.875pt x 1355.0625pt>
+File: figures/ryc52.png Graphic file (type png)
+<use figures/ryc52.png>
+Package pdftex.def Info: figures/ryc52.png  used on input line 651.
+(pdftex.def)             Requested size: 301.1261pt x 193.57397pt.
+<figures/ryc53.png, id=447, 2631.8325pt x 1646.15pt>
+File: figures/ryc53.png Graphic file (type png)
+<use figures/ryc53.png>
+Package pdftex.def Info: figures/ryc53.png  used on input line 665.
+(pdftex.def)             Requested size: 401.50146pt x 251.10658pt.
+[34 <./figures/ryc51.png> <./figures/ryc52.png>]
+<figures/ryc54.png, id=460, 2107.875pt x 1355.0625pt>
+File: figures/ryc54.png Graphic file (type png)
+<use figures/ryc54.png>
+Package pdftex.def Info: figures/ryc54.png  used on input line 683.
+(pdftex.def)             Requested size: 301.1261pt x 193.57397pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/ryc55.png, id=461, 3971.83875pt x 1405.25pt>
+File: figures/ryc55.png Graphic file (type png)
+<use figures/ryc55.png>
+Package pdftex.def Info: figures/ryc55.png  used on input line 697.
+(pdftex.def)             Requested size: 401.50146pt x 142.0342pt.
+[35 <./figures/ryc53.png>] [36 <./figures/ryc54.png> <./figures/ryc55.png>]
+<figures/ryc56.png, id=482, 2107.875pt x 1355.0625pt>
+File: figures/ryc56.png Graphic file (type png)
+<use figures/ryc56.png>
+Package pdftex.def Info: figures/ryc56.png  used on input line 716.
+(pdftex.def)             Requested size: 301.1261pt x 193.57397pt.
+<figures/ryc57.png, id=483, 3283.26625pt x 1405.25pt>
+File: figures/ryc57.png Graphic file (type png)
+<use figures/ryc57.png>
+Package pdftex.def Info: figures/ryc57.png  used on input line 730.
+(pdftex.def)             Requested size: 401.50146pt x 171.83908pt.
+[37 <./figures/ryc56.png> <./figures/ryc57.png>]
+<figures/ryc58.png, id=496, 2258.4375pt x 1355.0625pt>
+File: figures/ryc58.png Graphic file (type png)
+<use figures/ryc58.png>
+Package pdftex.def Info: figures/ryc58.png  used on input line 749.
+(pdftex.def)             Requested size: 301.1261pt x 180.6718pt.
+<figures/ryc59.png, id=497, 2559.5625pt x 1606.0pt>
+File: figures/ryc59.png Graphic file (type png)
+<use figures/ryc59.png>
+Package pdftex.def Info: figures/ryc59.png  used on input line 763.
+(pdftex.def)             Requested size: 401.50146pt x 251.91711pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[38 <./figures/ryc58.png>]
+<figures/ryc510.png, id=509, 2107.875pt x 1355.0625pt>
+File: figures/ryc510.png Graphic file (type png)
+<use figures/ryc510.png>
+Package pdftex.def Info: figures/ryc510.png  used on input line 781.
+(pdftex.def)             Requested size: 301.1261pt x 193.57397pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/ryc511.png, id=510, 4254.89626pt x 1405.25pt>
+File: figures/ryc511.png Graphic file (type png)
+<use figures/ryc511.png>
+Package pdftex.def Info: figures/ryc511.png  used on input line 795.
+(pdftex.def)             Requested size: 401.50146pt x 132.59955pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[39 <./figures/ryc59.png>]
+<figures/ryc512.png, id=523, 2107.875pt x 1355.0625pt>
+File: figures/ryc512.png Graphic file (type png)
+<use figures/ryc512.png>
+Package pdftex.def Info: figures/ryc512.png  used on input line 813.
+(pdftex.def)             Requested size: 301.1261pt x 193.57397pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/ryc513.png, id=524, 4364.305pt x 2057.6875pt>
+File: figures/ryc513.png Graphic file (type png)
+<use figures/ryc513.png>
+Package pdftex.def Info: figures/ryc513.png  used on input line 827.
+(pdftex.def)             Requested size: 401.50146pt x 189.29698pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[40 <./figures/ryc510.png> <./figures/ryc511.png>]
+<figures/ryc514.png, id=536, 2107.875pt x 1355.0625pt>
+File: figures/ryc514.png Graphic file (type png)
+<use figures/ryc514.png>
+Package pdftex.def Info: figures/ryc514.png  used on input line 846.
+(pdftex.def)             Requested size: 301.1261pt x 193.57397pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[41 <./figures/ryc512.png> <./figures/ryc513.png>] [42 <./figures/ryc514.png>] 
+[43] [44] [45] [46
+
+]
+Rozdzia\PlPrIeC {\l } 6.
+[47]
+
+LaTeX Warning: Reference `put5' on page 48 undefined on input line 948.
+
+[48] [49] [50
+
+]
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 970.
+[51]
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 970.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 970.
+
+[52] (./imienazwisko.aux)
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `imienazwisko.out' has not changed.
+(rerunfilecheck)             Checksum: 6DFCEE6EA2773F89EBBFB668D50DDE77;3325.
+Package logreq Info: Writing requests to 'imienazwisko.run.xml'.
+\openout1 = `imienazwisko.run.xml'.
+
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 113 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 21358 strings out of 481253
- 363303 string characters out of 5914581
- 1135830 words of memory out of 5000000
- 37844 multiletter control sequences out of 15000+600000
- 463114 words of font info for 113 fonts, out of 8000000 for 9000
+ 22879 strings out of 481253
+ 386978 string characters out of 5914581
+ 1160240 words of memory out of 5000000
+ 38708 multiletter control sequences out of 15000+600000
+ 518564 words of font info for 412 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 86i,11n,89p,1137b,16143s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,12n,89p,1137b,18010s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dv
+ips/base/8r.enc}<c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
+public/bera/fvmr8a.pfb><c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-dist/fonts
+/type1/public/bera/fvmro8a.pfb><c:/Users/Maria/AppData/Roaming/TinyTeX/texmf-di
+st/fonts/type1/public/bera/fvsb8a.pfb><c:/Users/Maria/AppData/Roaming/TinyTeX/t
+exmf-dist/fonts/type1/public/bera/fvsr8a.pfb><c:/Users/Maria/AppData/Roaming/Ti
+nyTeX/texmf-dist/fonts/type1/public/bera/fvsro8a.pfb><c:/Users/Maria/AppData/Ro
+aming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/Users/Maria/Ap
+pData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/
+Maria/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on imienazwisko.pdf (52 pages, 31693145 bytes).
+PDF statistics:
+ 686 PDF objects out of 1000 (max. 8388607)
+ 551 compressed objects within 6 object streams
+ 176 named destinations out of 1000 (max. 500000)
+ 102757 words of extra memory for PDF output out of 106986 (max. 10000000)
 
-!  ==> Fatal error occurred, no output PDF file produced!

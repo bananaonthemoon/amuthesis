@@ -45,7 +45,7 @@ W kartogramach geometrycznych jednostki przestrzenne zostają zastąpione polami
 Najczęściej do tego używane są sześcioboki (heksagony) oraz prostokąty, których przykład jest widoczny na Ryc. \@ref(fig:ryc22), w mniejszym stopniu trójkąty. 
 Kartogramy geometryczne są wyjątkowo przydatne przy porównaniach pomiędzy latami, kiedy istnieje szansa, że granice jednostek się zmieniły [@ratajski1989]. 
 Kartogramy geometryczne pozwalają nam również ograniczyć stronniczość związany z powierzchnią jednostki. 
-(dobrym przykładem dla zastosowania takich pól są Stany Zjednoczone, gdzie większość stanów jest słabo zaludnionych, a jednocześnie są znaczną częścią łącznej powierzchni kraju).
+Dobrym przykładem dla zastosowania takich pól są Stany Zjednoczone, gdzie większość stanów jest słabo zaludnionych, a jednocześnie są znaczną częścią łącznej powierzchni kraju.
 
 ```{r ryc22, echo=FALSE, fig.cap="Mapy geometryczne (heksagonalna oraz kwadratowa) na przykładzie Stanów Zjednoczonych. Źródło: https://blog.apps.npr.org/2015/05/11/hex-tile-maps.html", out.width=400}
 knitr::include_graphics("figures/ryc22.png")

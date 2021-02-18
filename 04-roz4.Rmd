@@ -30,9 +30,9 @@ knitr::include_graphics("figures/ryc43.png")
 
 W polskiej literaturze kartogramy geometryczne są najczęściej tworzone poprzez podzielenie całego badanego obszaru na pola o równym kształcie i wielkości [@ratajski1989]. 
 W pracy została użyta zmodyfikowana metoda, w której jednostki odniesienia zostały zmienione na jednakowe pola (heksagonalne lub kwadratowe). 
-Pozwala to na łatwiejsze porównywanie wartości różnych obszarów (Ryc. \@ref(fig:ryc44). 
+Pozwala to na łatwiejsze porównywanie wartości różnych obszarów (Ryc. \@ref(fig:ryc44)). 
 Tak jak w przypadku kartogramu ciągłego, taki rodzaj wizualizacji jest szczególnie przydatny do szacowania wartości jednostek. 
-Wadą tej techniki jest ograniczona możliwość identyfikacji prawdziwych jednostek odniesienia, można to szczególnie na Ryc. \@ref(fig:ryc45) gdzie pomimo małej liczby pól, trudno jest rozpoznać np. województwo wielkopolskie. 
+Wadą tej techniki jest ograniczona możliwość identyfikacji prawdziwych jednostek odniesienia, można to szczególnie na Ryc. \@ref(fig:ryc45), gdzie pomimo małej liczby pól, trudno jest rozpoznać np. województwo wielkopolskie. 
 
 ```{r ryc44, echo=FALSE, fig.cap="Przykład kartogramu geometrycznego na poziomie województw - poparcie dla Rafała Trzaskowskiego w II turze wyborów. Źródło: opracowanie własne na podstawie danych PKW", out.width=300}
 knitr::include_graphics("figures/ryc44.png")
@@ -60,7 +60,7 @@ knitr::include_graphics("figures/ryc47.png")
 
 ## Anamorfoza nieciągła {#anamorfozanieciagla}
 
-Podobne do anamorfoz ciągłych zastosowanie mają anamorfozy nieciągłe. 
+Podobne zastosowanie do anamorfoz ciągłych mają anamorfozy nieciągłe. 
 Mała liczba jednostek oraz różnice między wartościami sprawiają, że mapa jest czytelna dla odbiorcy. 
 Zaletą tej techniki jest zachowanie oryginalnej geometrii i lokalizacji, co ułatwia użytkownikowi zlokalizowanie jednostek, np. województw (Ryc. \@ref(fig:ryc48)). 
 Zmiana powierzchni jednostek wiąże się jednak z przerwaniem topologii między jednostkami - jest to szczególnie uciążliwe, kiedy mamy jednostkę wewnątrz drugiej i utrudnia odczytanie informacji, np. miasta wewnątrz gmin miejsko-wiejskich (Ryc. \@ref(fig:ryc49)). 

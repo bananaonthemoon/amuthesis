@@ -19,3 +19,4 @@ rmd_files: [
 delete_merged_file: TRUE
 #new_session: yes
 before_chapter_script: ["code/before_script.R"]
+

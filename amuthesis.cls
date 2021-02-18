@@ -90,7 +90,6 @@
 \renewcommand{\bottomfraction}{0.85}
 \renewcommand{\textfraction}{0.15}
 \renewcommand{\floatpagefraction}{0.7}
-\usepackage{float}
 
 \RequirePackage[section]{placeins}
 
@@ -314,6 +313,7 @@
 \newcommand{\NormalTok}[1]{{#1}}
 
 \usepackage{longtable,booktabs}
+\usepackage{float}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \raggedbottom
