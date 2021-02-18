@@ -13,7 +13,7 @@ W rozdziale 4 zaprezentowano każdą z badanych technik wizualizacji w kontekśc
 Omówiono zalety oraz ograniczenia każdej z map oraz możliwe sposoby na optymalną reprezentację każdej z jednostek.
 
 Najpopularniejsza technika wizualizacji danych wyborczych w kontekście przestrzennym należy do kartogramu właściwego. 
-Często nie jest to jednak adekwatna, ponieważ uwzględnia w sobie powierzchnię, która nie musi być proporcjonalna do intensywności zjawiska. 
+Często nie jest to jednak adekwatna metoda, ponieważ uwzględniona powierzchnia nie zawsze jest proporcjonalna do intensywności zjawiska. 
 W celu znalezienia alternatywnej techniki wizualizacji, zbadano inne rodzaje kartogramów, m.in. kartogram ciągły, geometryczny oraz kartogramy odwrócone, tzw. anamorfozy. 
 Badanie przeprowadzono w postaci ankiety - została ona udostępniona w dwóch wariantach 68 studentom trzeciego oraz czwartego roku Wydziału Nauk Geograficznych i Geologicznych UAM.
 
@@ -28,7 +28,7 @@ Kartogramy geometryczne mogą mieć jednak zastosowanie, kiedy chcemy, aby użyt
 
 Z odpowiedzi dla anamorfozy ciągłej na przykładzie powiatów wynika, że ankietowani nie byli w stanie dostatecznie doszacować wyniku. 
 W obu przypadkach (Podozdziały \@ref(pyt1) oraz \@ref(pyt6)) wyniki były podobne do poprawnej odpowiedzi lub odsetek do większości odpowiedzi był podobny. 
-Za to w podrozdziale \@ref(pyt5) połowa ankietowanych odpowiedziała poprawnie (30-40%), na sąsiedni wariant 40-50% zagłosowało 38,2%. 
+Za to w podrozdziale \@ref(pyt5) połowa ankietowanych odpowiedziała poprawnie (odpowiedź *30-40%*), na sąsiedni wariant *40-50%* zagłosowało 38,2%. 
 W przypadku tej techniki wizualizacji nie można wyciągnąć jednoznacznego wniosku w kwestii jej czytelności i sugerowana jest dalsza praca w tym temacie.
 
 Wyniki jednoznacznie pokazują, że anamorfozy nieciągłe stanowią problem dla ankietowanych. 

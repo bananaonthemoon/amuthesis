@@ -7,13 +7,13 @@ Na stronie dostępne są dane w rozszerzeniach *.csv* oraz *.xlsx* – w pracy s
 Wyniki głosowania są dostępne w formie wartości bezwzględnych oraz procentowej, z podziałem na obwody, gminy, powiaty oraz województwa. 
 Każda z tabel zawiera m.in. kod TERYT, nazwę jednostki, frekwencję, liczbę głosów nieważnych wraz z ich powodami, liczbę lub procent głosów ważnych oraz liczbę lub procent głosów oddanych na danego kandydata. Tabela\@ref(tab:tabela31) przedstawia wybrane kolumny z danych pobranych od Państwowej Komisji Wyborczej.
 
-```{r tabela31, echo=FALSE, fig.cap="Fragment surowych danych z II tury pobranych z wybory.gov.pl"}
+```{r tabela31, echo=FALSE, fig.cap="Fragment surowych danych z II tury Źródło: opracowanie własne na podstawie danych PKW"}
 library(knitr)
 library(kableExtra)
 library(magrittr)
 dane_woj1 = read.csv2("data/tabela31.csv", encoding = "UTF-8")
 
-kable(head(dane_woj1[c(1,2,4,25:26)], 5), align = 'c', format.args = list(scientific = FALSE), booktabs = TRUE, col.names = c('TERYT', 'Województwo', 'Liczba wyborców uprawnionych do głosowania','Andrzej Sebastian Duda', 'Rafał Kazimierz Trzaskowski'), caption = "Fragment surowych danych wyborczych z II tury Źródło: wybory.gov.pl",) %>%
+kable(head(dane_woj1[c(1,2,4,25:26)], 5), align = 'c', format.args = list(scientific = FALSE), booktabs = TRUE, col.names = c('TERYT', 'Województwo', 'Liczba wyborców uprawnionych do głosowania','Andrzej Sebastian Duda', 'Rafał Kazimierz Trzaskowski'), caption = "Fragment surowych danych wyborczych z II tury Źródło: opracowanie własne na podstawie danych PKW",) %>%
 kable_styling("hover", full_width = F, latex_options = "scale_down") %>%
 kableExtra::column_spec(1, width = "1cm", latex_valign = 'm') %>%
 kableExtra::column_spec(2, width = "4cm", latex_valign = 'm') %>%
@@ -25,12 +25,12 @@ kableExtra::column_spec(5, width = "3cm", latex_valign = 'm')
 Do wizualizacji wykorzystano wyniki z pierwszej i drugiej tury wyborów z podziałem dla województw, powiatów oraz gmin w województwie wielkopolskim. 
 Na podstawie danych obliczono m.in. frekwencję, odsetek głosów dla dwóch najpopularniejszych kandydatów oraz różnicę w liczbie i odsetku głosów między nimi (Tab.\@ref(tab:tabela32)).
 
-```{r tabela32, echo=FALSE, fig.cap="Fragment wyczyszczonych danych wyborczych z II tury Źródło: wybory.gov.pl"}
+```{r tabela32, echo=FALSE, fig.cap="Fragment wyczyszczonych danych wyborczych z II tury Źródło: opracowanie własne na podstawie danych PKW"}
 library(knitr)
 library(kableExtra)
 dane_woj2 = read.csv2("data/tabela32.csv", encoding = "UTF-8", colClasses=c("X.U.FEFF.t1_TERYT"="character"))
 
-kable(head(dane_woj2[c(1,5:6,9:10)], 5), align = 'c', format.args = list(scientific = FALSE), booktabs = TRUE, col.names = c('TERYT','t1_Andrzej Sebastian Duda', 't1_Rafał Kazimierz Trzaskowski','t2_Andrzej Sebastian Duda', 't2_Rafał Kazimierz Trzaskowski'), caption = "Fragment wyczyszczonych danych wyborczych z II tury Źródło: wybory.gov.pl",) %>%
+kable(head(dane_woj2[c(1,5:6,9:10)], 5), align = 'c', format.args = list(scientific = FALSE), booktabs = TRUE, col.names = c('TERYT','t1_Andrzej Sebastian Duda', 't1_Rafał Kazimierz Trzaskowski','t2_Andrzej Sebastian Duda', 't2_Rafał Kazimierz Trzaskowski'), caption = "Fragment wyczyszczonych danych wyborczych z II tury Źródło: opracowanie własne na podstawie danych PKW",) %>%
 kable_classic(full_width = F, latex_options = c("scale_down", "hold")) %>%
 kableExtra::column_spec(1, width = "1cm", latex_valign = 'm') %>%
 kableExtra::column_spec(2, width = "3cm", latex_valign = 'm') %>%
@@ -66,7 +66,7 @@ dane_woj3 = read.csv2("data/tabela33.csv", encoding = "UTF-8")
 kable(head(dane_woj3[c(2, 17, 18, 22, 23)], 5), align = 'c', format.args = list(scientific = FALSE), 
 booktabs = TRUE, 
 col.names = c('JPT_KOD_JE', 't2_frek',	't1_duda', 	't2_roznica_glosow','roznica_frek'),
-caption = "Fragment wyczyszczonych danych wyborczych z II tury Źródło: wybory.gov.pl",) %>%
+caption = "Fragment wyczyszczonych danych geograficznych oraz danych wyborczych z II tury Źródło: opracowanie własne na podstawie danych PKW",) %>%
 kable_styling("hover", full_width = F, latex_options = "scale_down") %>%
 kableExtra::column_spec(1, width = "4cm", latex_valign = 'm') %>%
 kableExtra::column_spec(2, width = "2cm", latex_valign = 'm') %>%
@@ -84,7 +84,7 @@ Głównym narzędziem stosowanym w pracy inżynierskiej był język *R*.
 Łącznie użytych zostało 9 pakietów, z czego najważniejszymi były pakiety *cartogram* oraz *geogrid*, które umożliwiały wizualizację danych przestrzennych (Tab. \ref(tab:tabela34)). 
 Innymi ważnymi pakietami użytymi w pracy były m.in.: dplyr [@r-dplyr], sf [@r-sf], tmap [@r-tmap] oraz tmaptools [@r-tmaptools].
 
-```{r tabela34, echo=FALSE, fig.cap="Fragment wyczyszczonych danych geograficznych oraz danych wyborczych z II tury Źródło: wybory.gov.pl"}
+```{r tabela34, echo=FALSE, fig.cap="Spis użytych bibliotek języka R na każdym etapie tworzenia pracy. Źródło: opracowanie własne"}
 library(knitr)
 library(kableExtra)
 dane_woj4 = read.csv2("data/tabela34.csv", encoding = "UTF-8")
