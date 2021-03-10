@@ -15,7 +15,7 @@ Dobór zależy w dużej mierze od charakterystyki rozkładu danych, jednak najcz
 
 * przedziały interwałowe (normatywne), których rozpiętość jest uzależniona od zjawiska i jego charakteru funkcjonalnego,
 
-* przedziały o jednakowej rozpiętości. Mogą one powstać np. poprzez podzielenie ekstremalnych wartości zbiorowości przez liczbę planowanych przedziałów;
+* przedziały o jednakowej rozpiętości. Mogą one powstać np. poprzez podzielenie ekstremalnych wartości zbiorowości przez liczbę planowanych przedziałów,
 
 * przedziały analityczne, które wyznaczane są poprzez analizę danych, np. wyznaczanie przedziałów według postępu arytmetycznego lub geometrycznego.
 

@@ -1,6 +1,6 @@
 ---
 title: "Porównanie technik przestrzennej wizualizacji wyników wyborów w Polsce"
-titleeng: "2020 presidential election results in Poland - comparison of spatial visualisation techniques"
+titleeng: "Comparison of spatial visualization techniques to represent election results in Poland"
 degreetype: "Praca inżynierska"
 author: "Maria Król"
 major: "Geoinformacja"

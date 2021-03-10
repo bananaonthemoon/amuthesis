@@ -44,7 +44,7 @@ knitr::include_graphics("figures/ryc45.png")
 
 ## Anamorfoza ciągła {#anamorfozaciagla}
 
-Poniższa technika wizualizacji jest przedmiotem badań kartografów w Polsce, jednak nie zyskała popularności poza tym kręgiem [@krzywickablum2009] [@markowska2018] [@markowska2019] [@lamparski2018]. 
+Poniższa technika wizualizacji jest przedmiotem badań kartografów w Polsce, jednak nie zyskała ona popularności poza tym kręgiem [@michalski2008; @krzywickablum2009; @markowska2018; @markowska2019; @lamparski2018]. 
 Zaletą tej techniki jest wykorzystanie jednostek administracyjnych, co ułatwia odbiorcy lokalizację oraz rozpoznanie ich. 
 Przykład województw jest przystępny do odbioru dla użytkownika nawet, kiedy różnice między jednostkami są duże (Ryc. \@ref(fig:ryc46)). 
 Sprawy inaczej się mają w przypadku zastosowania powiatów lub gmin - duża liczba jednostek oraz skrajne wartości powodują znaczną deformację mapy, co zostało zaprezentowane na Ryc. \@ref(fig:ryc47). 
@@ -54,7 +54,7 @@ Podsumowując, taka forma wizualizacji jest użyteczna, kiedy prezentowana jest 
 knitr::include_graphics("figures/ryc46.png")
 ```
 
-```{r ryc47, echo=FALSE, fig.cap="Przykład kartogramu geometrycznego na poziomie gmin w województwie wielkopolskim - różnica głosów między kandydatami w II turze wyborów. Źródło: opracowanie własne na podstawie danych PKW", out.width=300}
+```{r ryc47, echo=FALSE, fig.cap="Przykład anamorfozy ciągłej na poziomie gmin w województwie wielkopolskim - różnica głosów między kandydatami w II turze wyborów. Źródło: opracowanie własne na podstawie danych PKW", out.width=300}
 knitr::include_graphics("figures/ryc47.png")
 ```
 
@@ -68,11 +68,11 @@ W tym przypadku autor nie zaleca stosowania tej techniki.
 Ważne w tej technice jest również dopasowanie argumentów funkcji tak, aby jednostki na siebie nie nachodziły. 
 Możliwości dopasowania zostały omówione w rozdziale \@ref(biblioteki).
 
-```{r ryc48, echo=FALSE, fig.cap="Przykład anamorfozy ciągłej na poziomie województw - różnica głosów między kandydatami w II turze wyborów. Źródło: opracowanie własne na podstawie danych PKW", out.width=300}
+```{r ryc48, echo=FALSE, fig.cap="Przykład anamorfozy nieciągłej na poziomie województw - różnica głosów między kandydatami w II turze wyborów. Źródło: opracowanie własne na podstawie danych PKW", out.width=300}
 knitr::include_graphics("figures/ryc48.png")
 ```
 
-```{r ryc49, echo=FALSE, fig.cap="Przykład kartogramu geometrycznego na poziomie gmin w województwie wielkopolskim - frekwencja w II turze wyborów. Źródło: opracowanie własne na podstawie danych PKW", out.width=300}
+```{r ryc49, echo=FALSE, fig.cap="Przykład anamorfozy nieciągłej na poziomie gmin w województwie wielkopolskim - frekwencja w II turze wyborów. Źródło: opracowanie własne na podstawie danych PKW", out.width=300}
 knitr::include_graphics("figures/ryc49.png")
 ```
 
@@ -85,14 +85,14 @@ Przykładem na to jest Ryc. \@ref(fig:ryc410) - wygenerowana wizualizacja wyraź
 Na poziomie gmin jednego województwa różnice są również widoczne, nawet przy użyciu wąskiego zakresu wartości (Ryc. \@ref(fig:ryc411)). 
 W przypadku powiatów dla całego kraju jednak można napotkać się na problem z natłokiem oraz rozmieszczeniem kół, co wpływa na ocenę wizualną użytkownika. Tak jak wspomniano w rozdziale \@ref(biblioteki), poprzez manipulację argumentami możemy m.in. określić udział obwiedni jednostki wypełnionej większym okręgiem (Ryc. \@ref(fig:ryc412)). Przekłada się to na częściowe zachowanie kształtu wizualizacji i ułatwienie odbioru informacji z mapy.
 
-```{r ryc410, echo=FALSE, fig.cap="Przykład anamorfozy ciągłej na poziomie województw - wzrost poparcia dla Andrzeja Dudy w II turze wyborów. Źródło: opracowanie własne na podstawie danych PKW", out.width=300}
+```{r ryc410, echo=FALSE, fig.cap="Przykład kartodiagramu Dorlinga na poziomie województw - wzrost poparcia dla Andrzeja Dudy w II turze wyborów. Źródło: opracowanie własne na podstawie danych PKW", out.width=300}
 knitr::include_graphics("figures/ryc410.png")
 ```
 
-```{r ryc411, echo=FALSE, fig.cap="Przykład kartogramu geometrycznego na poziomie gmin w województwie wielkopolskim - poparcie dla Rafała Trzaskowskiego w II turze wyborów. Źródło: opracowanie własne na podstawie danych PKW", out.width=300}
+```{r ryc411, echo=FALSE, fig.cap="Przykład kartodiagramu Dorlinga na poziomie gmin w województwie wielkopolskim - poparcie dla Rafała Trzaskowskiego w II turze wyborów. Źródło: opracowanie własne na podstawie danych PKW", out.width=300}
 knitr::include_graphics("figures/ryc411.png")
 ```
 
-```{r ryc412, echo=FALSE, fig.cap="Przykłady kartogramu geometrycznego na poziomie powiatów z trzema wariantami argumentu k - różnica głosów między kandydatami w II turze wyborów.Źródło: opracowanie własne na podstawie danych PKW", out.width=400}
+```{r ryc412, echo=FALSE, fig.cap="Przykłady kartodiagramu Dorlinga na poziomie powiatów z trzema wariantami argumentu k - różnica głosów między kandydatami w II turze wyborów.Źródło: opracowanie własne na podstawie danych PKW", out.width=400}
 knitr::include_graphics("figures/ryc412.png")
 ```

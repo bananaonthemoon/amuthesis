@@ -1,6 +1,6 @@
 # Ankieta {#ankieta}
 
-## Ankiety dotyczące map wyborczych {#ankietyintro}
+## Odpowiedzi respondentów {#ankietyintro}
 
 W ramach pracy zostały przeprowadzone dwie ankiety w celu zbadania czytelności wybranych technik wizualizacji. 
 Każda z ankiet zawierała siedem pytań z dołączonymi do nich wizualizacjami. 
@@ -152,7 +152,7 @@ Pozostałe województwa uzyskały od zera do trzech głosów.
 knitr::include_graphics("figures/ryc514.png")
 ```
 
-## Wnioski {#wnioski}
+## Wnioski z ankiety {#wnioski}
 
 Wnioski uzyskane z ankiety sugerują, że forma, w jakiej informacja jest przedstawiana, ma znaczny wpływ na odbiór informacji o rozmieszczeniu oraz zależności zjawisk przez użytkownika. 
 Dotyczy to zarówno metody wizualizacji oraz pól odniesienia. 

@@ -32,7 +32,7 @@ knitr::include_graphics("figures/ryc13.png")
 
 Jedną z rozwijających się kierunków badań w zakresie kartografii jest wizualizacja. 
 Gałąź ta powstała w latach 90. XX wieku wskutek rozwoju oraz upowszechnienia się technologii komputerowych. 
-W porównaniu do kartografii, wizualizacja jest elementem procesu poznawczej analizy danych przestrzennych, a jej celem jest odkrywanie prawidłowości i informacji w danych o charakterze przestrzennym. [@maceachren1994].
+W porównaniu do kartografii, wizualizacja jest elementem procesu poznawczej analizy danych przestrzennych, a jej celem jest odkrywanie prawidłowości i informacji w danych o charakterze przestrzennym [@maceachren1994].
 
 W Polsce wybory są regulowane przez ustawę z dnia 5 stycznia 2011 r. - [Kodeks wyborczy](https://pkw.gov.pl/uploaded_files/1598525869_kodeks-wyborczy-2020-lipiec.pdf). 
 Ustawa ta weszła w życie 1 sierpnia 2011 roku i zawiera przepisy dotyczące m.in. przeprowadzania wyborów prezydenckich. 
@@ -44,7 +44,7 @@ Powszechne, w pełni demokratyczne wybory prezydenckie III Rzeczypospolitej odby
 Wybory prezydenckie odbywają się na zarządzenie Marszałka Sejmu, a kadencja trwa 5 lat. 
 Ostatnie wybory na prezydenta RP zostały przeprowadzone 28 czerwca 2020 roku [@marszalek2020].
 
-W przypadku Polski historyczne mapy wyborcze znajdują się m.in. w Atlasie Rzeczypospolitej Polskiej, gdzie przedstawione są wybory prezydenckie z 1990 (Ryc. \@ref(fig:ryc14)) i 1995 roku (Ryc. \@ref(fig:ryc15)). W obu przypadkach przedstawione są wyłącznie kartogramy skokowe, pola odniesienia ograniczono do województw oraz gmin. 
+W przypadku Polski historyczne mapy wyborcze znajdują się m.in. w Atlasie Rzeczypospolitej Polskiej, gdzie przedstawione są wybory prezydenckie z 1990 (Ryc. \@ref(fig:ryc14)) i 1995 roku (Ryc. \@ref(fig:ryc15)). W obu przypadkach przedstawione są wyłącznie kartogramy właściwe, pola odniesienia ograniczono do województw oraz gmin. 
 
 ```{r ryc14, echo=FALSE, fig.cap="Mapa wyborów prezydenckich w Polsce w 1990 roku. Źródło: Atlas Rzeczypospolitej Polskiej",out.width=400}
 knitr::include_graphics("figures/ryc14.png")
@@ -54,7 +54,7 @@ knitr::include_graphics("figures/ryc14.png")
 knitr::include_graphics("figures/ryc15.png")
 ```
 
-Jak wspomniano wyżej, wizualizacja map wyborczych w Polsce ogranicza się w znacznej części do kartogramów skokowych. 
+Jak wspomniano wyżej, wizualizacja map wyborczych w Polsce ogranicza się w znacznej części do kartogramów właściwych. 
 Istnieją inne formy wizualizacji, które przykładają mniejszą wagę do powierzchni i pozwalają na dokładniejsze przedstawienie wartości. 
 Są to, m.in., kartogramy geometryczne oraz anamorfozy (kartogramy odwrócone). 
 Niska popularność tych form jest związana z przyzwyczajeniem społeczeństwa do analizowania map opartych o jednostki administracyjne jak powiaty lub województwa. 
